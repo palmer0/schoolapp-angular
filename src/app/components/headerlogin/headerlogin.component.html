@@ -1,0 +1,33 @@
+<header class="headerlogin-header" [ngClass]="rootClassName">
+  <div class="headerlogin-container">
+    <div class="headerlogin-container1">
+      <div class="headerlogin-container2">
+        <h1 class="headerlogin-text">
+          <span>SchoolApp</span>
+          <br />
+        </h1>
+      </div>
+      <div class="headerlogin-container3">
+        <a routerLink="/" class="headerlogin-navlink">Inicio</a>
+        <a routerLink="/presentacion" class="headerlogin-navlink1">
+          ¿Quiénes somos?
+        </a>
+      </div>
+    </div>
+    <div class="headerlogin-container4">
+      <a (click)="navigateToRoute()" class="headerlogin-navlink2">
+        <span class="headerlogin-text3">Menú</span>
+        <br />
+      </a>
+      <a (click)="logout()" class="headerlogin-navlink3">
+        <span class="headerlogin-text5">Cerrar sesión</span>
+        <br />
+      </a>
+      <img
+        [attr.alt]="imageAlt"
+        [attr.src]="imageSrc"
+        class="headerlogin-image"
+      />
+    </div>
+  </div>
+</header>

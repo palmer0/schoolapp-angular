@@ -1,0 +1,60 @@
+<div class="cursos-container">
+  <app-headerlogin
+    rootClassName="headerlogin-root-class-name23"
+  ></app-headerlogin>
+  <div class="cursos-container1">
+    <div class="cursos-container2">
+      <span class="cursos-text">{{cursoId}} ESO {{grupoId}}</span>
+    </div>
+    <div class="cursos-container3">
+        <select *ngIf="esjefe" class="plantillahorario-select" (change)="onSelectChange($event)">
+          <option *ngFor="let combinacion of combinacionesCursoGrupo" 
+                  [value]="combinacion.cursoId + ',' + combinacion.grupoId"
+                  [selected]="combinacion.cursoId === seleccionCursoId && combinacion.grupoId === seleccionGrupoId">
+            {{ combinacion.cursoId }}{{ combinacion.grupoId }}
+          </option>
+        </select>
+      <button *ngIf="!esjefe" (click)="toggleNuevoAnuncioForm()" type="button" class="cursos-button button">
+        Añadir anuncio al tablón
+      </button>
+    </div>
+  </div>
+  <div class="cursos-container4">
+    <app-alumnocurso
+      *ngFor="let alumno of alumnos"
+      [alumno]="alumno"
+      [userId]="userId"
+      [cursoId]="cursoId"
+      [grupoId]="grupoId"
+    ></app-alumnocurso>
+
+  </div>
+  <div *ngIf="mostrarNuevoAnuncioForm" class="tablonanuncios-container4" [formGroup]="formularioAnuncio">
+    <div class="tablonanuncios-container5" >
+      <div formArrayName="destinatarios">
+        <label *ngFor="let destinatario of destinatarios; let i = index">
+          <input type="checkbox" class="tablonanuncios-checkbox" [formControlName]="i" /> {{ destinatario }}
+        </label>
+      </div>
+      <input
+        type="text"
+        placeholder="Introduzca un título"
+        class="tablonanuncios-textinput input"
+        formControlName="titulo"
+      />
+      <textarea
+        placeholder="Añada aquí su contenido"
+        class="tablonanuncios-textarea textarea"
+        formControlName="contenido"
+
+      ></textarea>
+      <input
+        type="text"
+        placeholder="Introduzca su nombre"
+        class="tablonanuncios-textinput1 input"
+        formControlName="enviador"
+      />
+       <button (click)="agregarAnuncio()" class="tablonanuncios-navlink1 button">Añadir</button>
+    </div>
+  </div>
+</div>

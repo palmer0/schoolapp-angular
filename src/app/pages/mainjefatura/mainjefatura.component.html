@@ -1,0 +1,54 @@
+<div class="mainjefatura-container">
+  <app-headerlogin
+    rootClassName="headerlogin-root-class-name5"
+  ></app-headerlogin>
+  <app-userwelcome
+    [text]="userName"
+    rootClassName="userwelcome-root-class-name4"
+  ></app-userwelcome>
+  <div class="mainjefatura-container01">
+    <div class="mainjefatura-container02">
+      <div class="mainjefatura-container03">
+        <div class="mainjefatura-container04">
+          <div class="mainjefatura-container05">
+            <div class="mainjefatura-container06">
+              <span class="mainjefatura-text">Chat:</span>
+              <a [routerLink]="['/nuevochat', userId]" class="mainjefatura-navlink1">
+                -Seleccionar un chat
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="mainjefatura-container07">
+          <span class="mainjefatura-text1">Tablón de anuncios:</span>
+          <a [routerLink]="['/tablonanuncios', userId]" class="mainjefatura-navlink2">
+            -Ver tablón
+          </a>
+        </div>
+      </div>
+      <div class="mainjefatura-container08">
+        <div class="mainjefatura-container09">
+          <div class="mainjefatura-container10">
+            <span class="mainjefatura-text3">Cursos:</span>
+            <a [routerLink]="['/cursos', userId]" class="mainjefatura-navlink3">
+              -Acceso a cursos
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="mainjefatura-container11">
+        <div class="mainjefatura-container12">
+          <div class="mainjefatura-container13">
+            <span class="mainjefatura-text4">Personal:</span>
+            <a [routerLink]="['/recordatorios', userId]" class="mainjefatura-navlink4">
+              -Ver lista de recordatorios
+            </a>
+            <a [routerLink]="['/altaempleado', userId]" class="mainjefatura-navlink5">
+              -Mi perfil
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

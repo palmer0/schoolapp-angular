@@ -1,0 +1,283 @@
+<div class="altaalumno-container" [formGroup]="formularioAlumnos">
+  <app-headerlogin rootClassName="headerlogin-root-class-name17"></app-headerlogin>
+  <div class="altaalumno-container01">
+    <span class="altaalumno-text">Datos del alumno/a:</span>
+  </div>
+  <div class="altaalumno-container02">
+    <div class="altaalumno-container03">
+      <div class="altaalumno-container04">
+        <input type="text" placeholder="Nombre completo" class="altaalumno-textinput input" formControlName="nombre" />
+      </div>
+      <div class="altaalumno-container05">
+        <input type="text" placeholder="DNI" class="altaalumno-textinput01 input" formControlName="dni" />
+      </div>
+      <div class="altaalumno-container06">
+        <input type="text" placeholder="Nº teléfono" class="altaalumno-textinput02 input" formControlName="tlf" />
+      </div>
+    </div>
+    <div class="altaalumno-container07">
+      <div class="altaalumno-container08">
+        <input type="text" placeholder="Domicilio" class="altaalumno-textinput03 input" formControlName="direccion" />
+      </div>
+      <div class="altaalumno-container09">
+        <select name="municipios" class="altaalumno-select input" formControlName="municipio">
+          <option value disabled selected>Seleccione un municipio</option>
+          <option *ngFor="let municipio of municipios" [value]="municipio">
+            {{ municipio }}
+          </option>
+        </select>
+      </div>
+      <div class="altaalumno-container10">
+        <input type="text" placeholder="F. nac. dd/mm/aaaa" class="altaalumno-textinput04 input"
+          formControlName="fecha_nacimiento" />
+      </div>
+    </div>
+    <div class="altaalumno-container11">
+      <div class="altaalumno-container12">
+        <input type="text" placeholder="Cod. Postal" class="altaalumno-textinput05 input" formControlName="cpostal" />
+      </div>
+      <div class="altaalumno-container13">
+        <input type="text" placeholder="Email" class="altaalumno-textinput06 input" formControlName="email" />
+      </div>
+      <div class="altaalumno-container14">
+        <input type="text" placeholder="Contraseña" class="altaalumno-textinput07 input" formControlName="contrasena" />
+      </div>
+      <div class="altaalumno-container15">
+        <select  name="Grupo" class="altaalumno-select input"  formControlName="grupo" >
+          <option value disabled selected>Seleccione un municipio</option>
+          <option *ngFor="let grupo of grupos" [value]="grupo">
+            {{ grupo }}
+          </option>
+        </select>
+        <!-- <input type="text" placeholder="Grupo" class="altaalumno-textinput08 input" formControlName = "grupo"/> -->
+      </div>
+    </div>
+    <div class="altaalumno-container16">
+      <div class="altaalumno-container17">
+        <input type="text" placeholder="Nombre padre o madre" class="altaalumno-textinput09 input"
+          formControlName="nombre_padre" />
+      </div>
+      <div class="altaalumno-container18">
+        <input type="text" placeholder="DNI padre o madre" class="altaalumno-textinput10 input"
+          formControlName="dni_padre" />
+      </div>
+    </div>
+    <div class="altaalumno-container19">
+      <div class="altaalumno-container20">
+        <input type="text" placeholder="Email" class="altaalumno-textinput11 input" formControlName="email_padre" />
+        <div class="altaalumno-container21">
+          <input type="text" placeholder="Contraseña" class="altaalumno-textinput12 input"
+            formControlName="contrasena_padre" />
+        </div>
+      </div>
+    </div>
+    <div class="altaalumno-container22">
+      <div class="altaalumno-container23">
+        <span class="altaalumno-text01">Repite curso:</span>
+        <span class="altaalumno-text02">Sí</span>
+        <input type="radio" formControlName="repetidor" [value]="true" class="altaalumno-radiobutton" />
+        <span class="altaalumno-text03">No</span>
+        <input type="radio" formControlName="repetidor" [value]="false" class="altaalumno-radiobutton01" />
+      </div>
+      <div class="altaalumno-container24">
+        <span class="altaalumno-text04">Servicio de recogida:</span>
+        <span class="altaalumno-text05">Sí</span>
+        <input type="radio" formControlName="recogida" [value]="true" class="altaalumno-radiobutton02" />
+        <span class="altaalumno-text06">No</span>
+        <input type="radio" formControlName="recogida" [value]="false" class="altaalumno-radiobutton03" />
+      </div>
+    </div>
+  </div>
+  <div class="altaalumno-container25" [formGroup]="formularioCurso">
+    <div class="altaalumno-container26">
+      <div class="altaalumno-container27">
+        <span class="altaalumno-text07">1º ESO</span>
+        <input type="radio" formControlName="curso" value="1º" class="altaalumno-radiobutton04" />
+      </div>
+      <div class="altaalumno-container28">
+        <span class="altaalumno-text08">Atención Educativa</span>
+        <input type="radio" formControlName="religion1" [value]="false" class="altaalumno-radiobutton05" />
+        <span class="altaalumno-text09">Religión</span>
+        <input type="radio" formControlName="religion1" [value]="true" class="altaalumno-radiobutton06" />
+      </div>
+      <div class="altaalumno-container29">
+        <span class="altaalumno-text10">Ciencias de la naturaleza</span>
+      </div>
+      <div class="altaalumno-container30">
+        <span class="altaalumno-text11">
+          Ciencias Sociales, geografía e historia
+        </span>
+      </div>
+      <div class="altaalumno-container31">
+        <span class="altaalumno-text12">Educación física</span>
+      </div>
+      <div class="altaalumno-container32">
+        <span class="altaalumno-text13">Educación plástica y visual</span>
+      </div>
+      <div class="altaalumno-container33">
+        <span class="altaalumno-text14">Lengua Castellana y literatura</span>
+      </div>
+      <div class="altaalumno-container34">
+        <span class="altaalumno-text15">Lengua extranjera Inglés</span>
+      </div>
+      <div class="altaalumno-container35">
+        <span class="altaalumno-text16">Matemáticas</span>
+      </div>
+      <div class="altaalumno-container36">
+        <span class="altaalumno-text17">Segunda Lengua Extranjera Francés</span>
+      </div>
+      <div class="altaalumno-container37">
+        <span class="altaalumno-text18">Tecnología</span>
+      </div>
+      <div class="altaalumno-container38">
+        <div class="altaalumno-container39">
+          <span class="altaalumno-text19">Tutoría</span>
+        </div>
+      </div>
+    </div>
+    <div class="altaalumno-container40">
+      <div class="altaalumno-container41">
+        <span class="altaalumno-text20">2º ESO</span>
+        <input type="radio" formControlName="curso" value="2º" class="altaalumno-radiobutton07" />
+      </div>
+      <div class="altaalumno-container42">
+        <span class="altaalumno-text21">Atención Educativa</span>
+        <input type="radio" formControlName="religion2" [value]="false" class="altaalumno-radiobutton08" />
+        <span class="altaalumno-text22">Religión</span>
+        <input type="radio" formControlName="religion2" [value]="true" class="altaalumno-radiobutton09" />
+      </div>
+      <div class="altaalumno-container43">
+        <span class="altaalumno-text23">Ciencias de la naturaleza</span>
+      </div>
+      <div class="altaalumno-container44">
+        <span class="altaalumno-text24">
+          Ciencias Sociales, geografía e historia
+        </span>
+      </div>
+      <div class="altaalumno-container45">
+        <span class="altaalumno-text25">Educación física</span>
+      </div>
+      <div class="altaalumno-container46">
+        <span class="altaalumno-text26">Educación para la ciudadanía</span>
+      </div>
+      <div class="altaalumno-container47">
+        <span class="altaalumno-text27">Lengua Castellana y literatura</span>
+      </div>
+      <div class="altaalumno-container48">
+        <span class="altaalumno-text28">Lengua extranjera Inglés</span>
+      </div>
+      <div class="altaalumno-container49">
+        <span class="altaalumno-text29">Matemáticas</span>
+      </div>
+      <div class="altaalumno-container50">
+        <span class="altaalumno-text30">Segunda Lengua Extranjera Francés</span>
+      </div>
+      <div class="altaalumno-container51">
+        <span class="altaalumno-text31">Música</span>
+      </div>
+      <div class="altaalumno-container52">
+        <span class="altaalumno-text32">Tutoría</span>
+      </div>
+    </div>
+    <div class="altaalumno-container53">
+      <div class="altaalumno-container54">
+        <span class="altaalumno-text33">3º ESO</span>
+        <input type="radio" formControlName="curso" value="3º" class="altaalumno-radiobutton10" />
+      </div>
+      <div class="altaalumno-container55">
+        <span class="altaalumno-text34">Atención Educativa</span>
+        <input type="radio" formControlName="religion3" [value]="false" class="altaalumno-radiobutton11" />
+        <span class="altaalumno-text35">Religión</span>
+        <input type="radio" formControlName="religion3" [value]="true" class="altaalumno-radiobutton12" />
+      </div>
+      <div class="altaalumno-container56">
+        <span class="altaalumno-text36">Biología y Geología</span>
+      </div>
+      <div class="altaalumno-container57">
+        <span class="altaalumno-text37">
+          Ciencias Sociales, geografía e historia
+        </span>
+      </div>
+      <div class="altaalumno-container58">
+        <span class="altaalumno-text38">Educación física</span>
+      </div>
+      <div class="altaalumno-container59">
+        <span class="altaalumno-text39">Física y Química</span>
+      </div>
+      <div class="altaalumno-container60">
+        <span class="altaalumno-text40">Educación plástica y visual</span>
+      </div>
+      <div class="altaalumno-container61">
+        <span class="altaalumno-text41">Lengua Castellana y literatura</span>
+      </div>
+      <div class="altaalumno-container62">
+        <span class="altaalumno-text42">Lengua extranjera Inglés</span>
+      </div>
+      <div class="altaalumno-container63">
+        <span class="altaalumno-text43">Matemáticas</span>
+      </div>
+      <div class="altaalumno-container64">
+        <span class="altaalumno-text44">Segunda Lengua Extranjera Francés</span>
+      </div>
+      <div class="altaalumno-container65">
+        <span class="altaalumno-text45">Tecnología</span>
+      </div>
+      <div class="altaalumno-container66">
+        <span class="altaalumno-text46">Tutoría</span>
+      </div>
+    </div>
+    <div class="altaalumno-container67">
+      <div class="altaalumno-container68">
+        <span class="altaalumno-text47">4º ESO</span>
+        <input type="radio" formControlName="curso" value="4º" class="altaalumno-radiobutton13" />
+      </div>
+      <div class="altaalumno-container69">
+        <span class="altaalumno-text48">Atención Educativa</span>
+        <input type="radio" formControlName="religion4" [value]="false" class="altaalumno-radiobutton14" />
+        <span class="altaalumno-text49">Religión</span>
+        <input type="radio" formControlName="religion4" [value]="true" class="altaalumno-radiobutton15" />
+      </div>
+      <div class="altaalumno-container70">
+        <span class="altaalumno-text50">Biología y geología</span>
+        <input type="radio" formControlName="frances4" [value]="false" class="altaalumno-radiobutton16" />
+        <span class="altaalumno-text51">Francés</span>
+        <input type="radio" formControlName="frances4" [value]="true" class="altaalumno-radiobutton17" />
+      </div>
+      <div class="altaalumno-container71">
+        <span class="altaalumno-text52">Historia de España</span>
+      </div>
+      <div class="altaalumno-container72">
+        <span class="altaalumno-text53">Educación física</span>
+      </div>
+      <div class="altaalumno-container73">
+        <span class="altaalumno-text54">Física y Química</span>
+      </div>
+      <div class="altaalumno-container74">
+        <span class="altaalumno-text55">Lengua Castellana y literatura</span>
+      </div>
+      <div class="altaalumno-container75">
+        <span class="altaalumno-text56">Lengua extranjera Inglés</span>
+      </div>
+      <div class="altaalumno-container76">
+        <span class="altaalumno-text57">Matemáticas</span>
+      </div>
+      <div class="altaalumno-container77">
+        <span class="altaalumno-text58">Educación ético-cívica</span>
+      </div>
+      <div class="altaalumno-container78">
+        <span class="altaalumno-text59">Tecnología</span>
+      </div>
+      <div class="altaalumno-container79">
+        <span class="altaalumno-text60">Tutoría</span>
+      </div>
+    </div>
+  </div>
+  <div class="altaalumno-container80">
+    <button *ngIf="esAdmin" (click)="onSubmit()" class="altaalumno-navlink button">
+      Guardar Cambios
+    </button>
+    <button *ngIf="esAdmin" (click)="darDeBajaAlumno()" class="altaalumno-navlink button">
+      Dar de Baja
+    </button>
+  </div>
+</div>

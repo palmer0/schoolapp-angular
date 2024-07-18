@@ -1,0 +1,25 @@
+[debug] [2024-05-25T09:58:21.898Z] ----------------------------------------------------------------------
+[debug] [2024-05-25T09:58:21.901Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\lesro\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2024-05-25T09:58:21.901Z] CLI Version:   13.9.0
+[debug] [2024-05-25T09:58:21.901Z] Platform:      win32
+[debug] [2024-05-25T09:58:21.901Z] Node Version:  v20.10.0
+[debug] [2024-05-25T09:58:21.902Z] Time:          Sat May 25 2024 10:58:21 GMT+0100 (hora de verano de Europa occidental)
+[debug] [2024-05-25T09:58:21.902Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-05-25T09:58:21.988Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-05-25T09:58:21.989Z] > authorizing via signed-in user (lesrobaina.24@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\lesro\Desktop\tfg_angular_fire\schoolapp-angular
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+

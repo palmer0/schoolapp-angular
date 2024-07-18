@@ -1,0 +1,52 @@
+<div class="mainprofesores-container">
+  <app-headerlogin rootClassName="headerlogin-root-class-name7"></app-headerlogin>
+  <app-userwelcome [text]="userName" rootClassName="userwelcome-root-class-name5"></app-userwelcome>
+  <div class="mainprofesores-container01">
+    <div class="mainprofesores-container02">
+      <div class="mainprofesores-container03">
+        <div class="mainprofesores-container04">
+          <span class="mainprofesores-text8">Personal:</span>
+          <a [routerLink]="['/recordatorios', userId]" class="mainprofesores-navlink4">
+            -Ver lista de recordatorios
+          </a>
+          <a [routerLink]="['/altaempleado', userId]" class="mainprofesores-navlink4">
+            -Mi perfil
+          </a>
+        </div>
+        <div class="mainprofesores-container05">
+          <span class="mainprofesores-text3">Horario:</span>
+          <a [routerLink]="['/plantillahorario', userId]" class="mainprofesores-navlink2">
+            -Ver horario semanal
+          </a>
+        </div>
+      </div>
+      <div class="mainprofesores-container06">
+        <div class="mainprofesores-container07">
+          <span class="mainprofesores-text4">Cursos:</span>
+          <div class="mainprofesores-container05">
+            <div *ngFor="let curso of cursosAsignados">
+              <a [routerLink]="['/cursos', curso.cursoId, curso.grupoId, userId]" class="mainprofesores-navlink2">
+                -{{curso.cursoId}}{{ curso.grupoId }}
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="mainprofesores-container05">
+          <span class="mainprofesores-text3">Tablón de anuncios:</span>
+          <a [routerLink]="['/tablonanuncios', userId]" class="mainprofesores-navlink2">
+            -Ver tablón de anuncios
+          </a>
+        </div>
+      </div>
+      <div class="mainprofesores-container08">
+        <div class="mainprofesores-container09">
+          <span class="mainprofesores-text">Chat:</span>
+          <a [routerLink]="['/nuevochat', userId]" class="mainprofesores-navlink1">
+            <span>-Seleccionar chat</span>
+            <br />
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

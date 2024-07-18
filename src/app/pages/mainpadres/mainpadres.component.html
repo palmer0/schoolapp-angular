@@ -1,0 +1,60 @@
+<div class="mainpadres-container">
+  <app-headerlogin
+    rootClassName="headerlogin-root-class-name6"
+  ></app-headerlogin>
+  <app-userwelcome
+    [text]="userName"
+    rootClassName="userwelcome-root-class-name"
+  ></app-userwelcome>
+  <div class="mainpadres-container1">
+    <select class="mainpadres-select" (change)="onHijoChange($event.target.value)">
+      <option *ngFor="let hijo of hijos" [value]="hijo.id" [selected]="hijo.id === selectedHijoId">{{ hijo.nombre }}</option>
+    </select>
+  </div>
+  <app-menualupadres
+    rootClassName="menualupadres-root-class-name"
+  ></app-menualupadres>
+    <div class="mainpadres-container02">
+      <div class="mainpadres-container03">
+        <div class="mainpadres-container04">
+          <span class="mainpadres-text">Chat:</span>
+          <a [routerLink]="['/nuevochat', userId]" class="mainpadres-navlink1">-Nuevo chat</a>
+        </div>
+        <div class="mainpadres-container05">
+          <span class="mainpadres-text1">Horario:</span>
+          <a [routerLink]="['/horario', userId, selectedHijoId]" class="mainpadres-navlink2">
+            -Ver horario semanal
+          </a>
+        </div>
+      </div>
+      <div class="mainpadres-container06">
+        <div class="mainpadres-container07">
+          <span class="mainpadres-text2">Personal:</span>
+          <a [routerLink]="['/altaalumno', userId, selectedHijoId]" class="mainpadres-navlink3">
+            -Perfil
+          </a>
+          <!-- <span class="mainpadres-text2">Boletines de notas:</span>
+          <ng-container *ngFor="let boletin of boletines">
+          <a [routerLink]="['/boletines', userId, selectedHijoId, boletin]" class="mainpadres-navlink3">
+            -{{boletin}}</a>
+        </ng-container> -->
+        </div>
+        <div class="mainpadres-container05">
+          <span class="mainpadres-text1">Tablón de anuncios:</span>
+          <a [routerLink]="['/tablonanuncios', userId]" class="mainpadres-navlink2">
+            -Ver tablón de anuncios
+          </a>
+        </div>
+      </div>
+      <div class="mainpadres-container08">
+        <div class="mainpadres-container07">
+          <span class="mainpadres-text5">Incidencias:</span>
+          <a [routerLink]="['/incidencias', userId, selectedHijoId]" class="mainpadres-navlink4">
+            -Ver incidencias del curso
+          </a>
+        </div>
+        <div class="mainpadres-container10"></div>
+      </div>
+    </div>
+  </div>
+  

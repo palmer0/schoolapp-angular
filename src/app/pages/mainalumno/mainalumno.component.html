@@ -1,0 +1,60 @@
+<div class="mainalumno-container">
+  <app-headerlogin
+    rootClassName="headerlogin-root-class-name3"
+  ></app-headerlogin>
+  <app-userwelcome
+    [text]="userName"
+    rootClassName="userwelcome-root-class-name1"
+  ></app-userwelcome>
+  <app-menualupadres
+    rootClassName="menualupadres-root-class-name1"
+  ></app-menualupadres>
+  
+    <div class="mainalumno-container01">
+      <div class="mainalumno-container02">
+        <div class="mainalumno-container03">
+          <span class="mainalumno-text6">Personal:</span>
+          <a [routerLink]="['/recordatorios', userId]"  class="mainalumno-navlink5">
+            -Ver recordatorios
+          </a>
+          <a [routerLink]="['/altaalumno', userId]"  class="mainalumno-navlink5">
+            -Mi perfil
+          </a>
+        </div>
+        <div class="mainalumno-container04">
+          <span class="mainalumno-text8">Incidencias:</span>
+          <a [routerLink]="['/incidencias', userId]" class="mainalumno-navlink6">
+            -Ver incidencias del curso
+          </a>
+        </div>
+      </div>
+      <div class="mainalumno-container05">
+        <div class="mainalumno-container06">
+          <span class="mainalumno-text1">Horario:</span>
+          <a [routerLink]="['/horario', userId]" class="mainalumno-navlink2">
+            -Ver horario semanal
+          </a>
+          </div>
+          <div class="mainalumno-container07">
+            <span class="mainalumno-text5">Tablón de anuncios:</span>
+            <a [routerLink]="['/tablonanuncios', userId]" class="mainalumno-navlink4">
+              -Ver tablón de anuncios
+            </a>
+          </div>
+        </div>
+        <div class="mainalumno-container08">
+          <div class="mainalumno-container09">
+            <span class="mainalumno-text">Chat:</span>
+            <a [routerLink]="['/nuevochat', userId]" class="mainalumno-navlink1">-Seleccionar chat</a>
+          </div>
+          <div class="">
+           <!--  <span class="mainalumno-text2">Boletines de notas:</span>
+            <ng-container *ngFor="let boletin of boletines">
+              <a [routerLink]="['/boletines', userId, boletin]" class="mainalumno-navlink3">
+                -{{boletin}}</a>
+              </ng-container>
+          </div> -->
+      </div>
+    </div>
+  </div>
+  

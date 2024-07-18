@@ -1,0 +1,1407 @@
+:host { 
+  display: contents; 
+}
+.altaalumno-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: var(--dl-color-success-background);
+}
+.altaalumno-container01 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  padding: var(--dl-space-space-halfunit);
+  align-self: flex-start;
+  margin-top: var(--dl-space-space-oneandhalfunits);
+  align-items: center;
+  margin-left: var(--dl-space-space-oneandhalfunits);
+  margin-bottom: var(--dl-space-space-twounits);
+  justify-content: flex-start;
+  background-color: var(--dl-color-success-header);
+}
+.altaalumno-text {
+  color: rgb(255, 255, 255);
+  font-size: 24px;
+  font-style: normal;
+  font-family: "PT Sans";
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+.altaalumno-container02 {
+  flex: 0 0 auto;
+  width: 1300px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.altaalumno-container03 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+}
+.altaalumno-container04 {
+  flex: 1;
+  width: 601px;
+  height: auto;
+  display: flex;
+  padding: var(--dl-space-space-halfunit);
+  align-items: center;
+  justify-content: center;
+  background-color: var(--dl-color-success-header);
+}
+.altaalumno-textinput {
+  width: 100%;
+}
+.altaalumno-container05 {
+  flex: 0 0 auto;
+  width: 363px;
+  height: auto;
+  display: flex;
+  padding: var(--dl-space-space-halfunit);
+  align-items: center;
+  justify-content: center;
+  background-color: var(--dl-color-success-header);
+}
+.altaalumno-textinput01 {
+  width: 100%;
+}
+.altaalumno-container06 {
+  flex: 0 0 auto;
+  width: 314px;
+  height: auto;
+  display: flex;
+  padding: var(--dl-space-space-halfunit);
+  align-items: center;
+  justify-content: center;
+  background-color: var(--dl-color-success-header);
+}
+.altaalumno-textinput02 {
+  width: 100%;
+}
+.altaalumno-container07 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+}
+.altaalumno-container08 {
+  flex: 1;
+  width: 601px;
+  height: auto;
+  display: flex;
+  padding: var(--dl-space-space-halfunit);
+  align-items: center;
+  justify-content: center;
+  background-color: var(--dl-color-success-header);
+}
+.altaalumno-textinput03 {
+  width: 100%;
+}
+.altaalumno-container09 {
+  flex: 0 0 auto;
+  width: 531px;
+  height: auto;
+  display: flex;
+  padding: var(--dl-space-space-halfunit);
+  align-items: center;
+  justify-content: center;
+  background-color: var(--dl-color-success-header);
+}
+.altaalumno-select {
+  width: 100%;
+  color: black;
+}
+.altaalumno-select option[disabled][selected] {
+  width: 100%;
+  color: grey;
+}
+.altaalumno-container10 {
+  flex: 1;
+  width: 147px;
+  height: auto;
+  display: flex;
+  padding: var(--dl-space-space-halfunit);
+  align-items: center;
+  justify-content: center;
+  background-color: var(--dl-color-success-header);
+}
+.altaalumno-textinput04 {
+  width: 100%;
+}
+.altaalumno-container11 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+}
+.altaalumno-container12 {
+  flex: 1;
+  width: 444px;
+  height: auto;
+  display: flex;
+  padding: var(--dl-space-space-halfunit);
+  align-items: center;
+  justify-content: center;
+  background-color: var(--dl-color-success-header);
+}
+.altaalumno-textinput05 {
+  width: 100%;
+}
+.altaalumno-container13 {
+  flex: 0 0 auto;
+  width: 581px;
+  height: auto;
+  display: flex;
+  padding: var(--dl-space-space-halfunit);
+  align-items: center;
+  justify-content: center;
+  background-color: var(--dl-color-success-header);
+}
+.altaalumno-textinput06 {
+  width: 100%;
+}
+.altaalumno-container14 {
+  flex: 0 0 auto;
+  width: 354px;
+  height: auto;
+  display: flex;
+  padding: var(--dl-space-space-halfunit);
+  align-items: center;
+  justify-content: center;
+  background-color: var(--dl-color-success-header);
+}
+.altaalumno-textinput07 {
+  width: 100%;
+}
+.altaalumno-container15 {
+  flex: 0 0 auto;
+  width: 169px;
+  height: auto;
+  display: flex;
+  padding: var(--dl-space-space-halfunit);
+  align-items: center;
+  justify-content: center;
+  background-color: var(--dl-color-success-header);
+}
+.altaalumno-textinput08 {
+  width: 100%;
+}
+.altaalumno-container16 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+}
+.altaalumno-container17 {
+  flex: 1;
+  width: 811px;
+  height: auto;
+  display: flex;
+  padding: var(--dl-space-space-halfunit);
+  align-items: center;
+  justify-content: center;
+  background-color: var(--dl-color-success-header);
+}
+.altaalumno-textinput09 {
+  width: 100%;
+}
+.altaalumno-container18 {
+  flex: 0 0 auto;
+  width: 529px;
+  height: auto;
+  display: flex;
+  padding: var(--dl-space-space-halfunit);
+  align-items: center;
+  justify-content: center;
+  background-color: var(--dl-color-success-header);
+}
+.altaalumno-textinput10 {
+  width: 100%;
+}
+.altaalumno-container19 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+}
+.altaalumno-container20 {
+  flex: 1;
+  width: 314px;
+  height: auto;
+  display: flex;
+  padding: var(--dl-space-space-halfunit);
+  align-items: center;
+  justify-content: center;
+  background-color: var(--dl-color-success-header);
+}
+.altaalumno-textinput11 {
+  width: 100%;
+}
+.altaalumno-container21 {
+  flex: 0 0 auto;
+  width: 363px;
+  height: auto;
+  display: flex;
+  padding: var(--dl-space-space-halfunit);
+  align-items: center;
+  justify-content: center;
+  background-color: var(--dl-color-success-header);
+}
+.altaalumno-textinput12 {
+  width: 100%;
+}
+.altaalumno-container22 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-self: center;
+  align-items: stretch;
+  justify-content: center;
+}
+.altaalumno-container23 {
+  flex: 0 0 auto;
+  width: 684px;
+  height: auto;
+  display: flex;
+  padding: var(--dl-space-space-halfunit);
+  align-items: center;
+  margin-left: 0px;
+  justify-content: flex-start;
+  background-color: var(--dl-color-success-header);
+}
+.altaalumno-text01 {
+  color: rgb(255, 255, 255);
+  font-style: normal;
+  font-family: "PT Sans";
+  font-weight: 700;
+  margin-right: var(--dl-space-space-twounits);
+}
+.altaalumno-text02 {
+  color: rgb(255, 255, 255);
+  font-style: normal;
+  font-family: "PT Sans";
+  font-weight: 700;
+  margin-right: var(--dl-space-space-unit);
+}
+.altaalumno-radiobutton {
+  width: 43px;
+  height: 43px;
+  margin-right: var(--dl-space-space-twounits);
+}
+.altaalumno-text03 {
+  color: rgb(255, 255, 255);
+  font-style: normal;
+  font-family: "PT Sans";
+  font-weight: 700;
+  margin-right: var(--dl-space-space-unit);
+}
+.altaalumno-radiobutton01 {
+  width: 43px;
+  height: 43px;
+  margin-right: var(--dl-space-space-twounits);
+}
+.altaalumno-container24 {
+  flex: 1;
+  width: 438px;
+  height: auto;
+  display: flex;
+  padding: var(--dl-space-space-halfunit);
+  align-items: center;
+  margin-left: 0px;
+  justify-content: flex-end;
+  background-color: var(--dl-color-success-header);
+}
+.altaalumno-text04 {
+  color: rgb(255, 255, 255);
+  font-style: normal;
+  font-family: "PT Sans";
+  font-weight: 700;
+  margin-right: var(--dl-space-space-twounits);
+}
+.altaalumno-text05 {
+  color: rgb(255, 255, 255);
+  font-style: normal;
+  font-family: "PT Sans";
+  font-weight: 700;
+  margin-right: var(--dl-space-space-unit);
+}
+.altaalumno-radiobutton02 {
+  width: 43px;
+  height: 43px;
+  margin-right: var(--dl-space-space-twounits);
+}
+.altaalumno-text06 {
+  color: rgb(255, 255, 255);
+  font-style: normal;
+  font-family: "PT Sans";
+  font-weight: 700;
+  margin-right: var(--dl-space-space-unit);
+}
+.altaalumno-radiobutton03 {
+  width: 43px;
+  height: 43px;
+  margin-right: var(--dl-space-space-twounits);
+}
+.altaalumno-container25 {
+  width: 1300px;
+  height: auto;
+  display: flex;
+  margin-top: var(--dl-space-space-twounits);
+  align-items: stretch;
+  margin-bottom: var(--dl-space-space-twounits);
+  flex-direction: row;
+  justify-content: center;
+  background-color: var(--dl-color-success-header);
+}
+.altaalumno-container26 {
+  flex: 1;
+  width: var(--dl-size-size-xlarge);
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  border-color: #ffffff;
+  border-style: dashed;
+  border-width: 1px;
+  flex-direction: column;
+  justify-content: flex-start;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-bottom-width: 0px;
+}
+.altaalumno-container27 {
+  flex: 0 0 auto;
+  width: auto;
+  height: var(--dl-size-size-small);
+  display: flex;
+  align-self: center;
+  align-items: center;
+  margin-left: 0px;
+  margin-bottom: var(--dl-space-space-halfunit);
+  justify-content: center;
+}
+.altaalumno-text07 {
+  color: #ffffff;
+  font-style: normal;
+  font-family: "PT Sans";
+  font-weight: 700;
+}
+.altaalumno-radiobutton04 {
+  width: 30px;
+  height: 30px;
+  margin-left: var(--dl-space-space-unit);
+  margin-right: 0px;
+}
+.altaalumno-container28 {
+  width: auto;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  margin-left: var(--dl-space-space-oneandhalfunits);
+  margin-bottom: var(--dl-space-space-halfunit);
+  justify-content: center;
+}
+.altaalumno-text08 {
+  color: rgb(255, 255, 255);
+  height: 100%;
+  font-size: 20px;
+  font-style: normal;
+  font-family: "PT Sans";
+  font-weight: 700;
+}
+.altaalumno-radiobutton05 {
+  width: 43px;
+  height: 43px;
+  margin-right: var(--dl-space-space-unit);
+}
+.altaalumno-text09 {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-style: normal;
+  font-family: "PT Sans";
+  font-weight: 700;
+  margin-right: var(--dl-space-space-unit);
+}
+.altaalumno-radiobutton06 {
+  width: 43px;
+  height: 43px;
+  margin-right: var(--dl-space-space-twounits);
+}
+.altaalumno-container29 {
+  flex: 0 0 auto;
+  width: auto;
+  height: var(--dl-size-size-small);
+  display: flex;
+  align-items: center;
+  margin-left: var(--dl-space-space-oneandhalfunits);
+  margin-bottom: var(--dl-space-space-halfunit);
+  justify-content: center;
+}
+.altaalumno-text10 {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-style: normal;
+  font-family: "PT Sans";
+  font-weight: 700;
+}
+.altaalumno-container30 {
+  flex: 0 0 auto;
+  width: auto;
+  height: var(--dl-size-size-small);
+  display: flex;
+  align-items: center;
+  margin-left: var(--dl-space-space-oneandhalfunits);
+  margin-bottom: var(--dl-space-space-halfunit);
+  justify-content: center;
+}
+.altaalumno-text11 {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-style: normal;
+  font-family: "PT Sans";
+  font-weight: 700;
+}
+.altaalumno-container31 {
+  flex: 0 0 auto;
+  width: auto;
+  height: var(--dl-size-size-small);
+  display: flex;
+  align-items: center;
+  margin-left: var(--dl-space-space-oneandhalfunits);
+  margin-bottom: var(--dl-space-space-halfunit);
+  justify-content: center;
+}
+.altaalumno-text12 {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-style: normal;
+  font-family: "PT Sans";
+  font-weight: 700;
+}
+.altaalumno-container32 {
+  flex: 0 0 auto;
+  width: auto;
+  height: var(--dl-size-size-small);
+  display: flex;
+  align-items: center;
+  margin-left: var(--dl-space-space-oneandhalfunits);
+  margin-bottom: var(--dl-space-space-halfunit);
+  justify-content: center;
+}
+.altaalumno-text13 {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-style: normal;
+  font-family: "PT Sans";
+  font-weight: 700;
+}
+.altaalumno-container33 {
+  flex: 0 0 auto;
+  width: auto;
+  height: var(--dl-size-size-small);
+  display: flex;
+  align-items: center;
+  margin-left: var(--dl-space-space-oneandhalfunits);
+  margin-bottom: var(--dl-space-space-halfunit);
+  justify-content: center;
+}
+.altaalumno-text14 {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-style: normal;
+  font-family: "PT Sans";
+  font-weight: 700;
+}
+.altaalumno-container34 {
+  flex: 0 0 auto;
+  width: auto;
+  height: var(--dl-size-size-small);
+  display: flex;
+  align-items: center;
+  margin-left: var(--dl-space-space-oneandhalfunits);
+  margin-bottom: var(--dl-space-space-halfunit);
+  justify-content: center;
+}
+.altaalumno-text15 {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-style: normal;
+  font-family: "PT Sans";
+  font-weight: 700;
+}
+.altaalumno-container35 {
+  flex: 0 0 auto;
+  width: auto;
+  height: var(--dl-size-size-small);
+  display: flex;
+  align-items: center;
+  margin-left: var(--dl-space-space-oneandhalfunits);
+  margin-bottom: var(--dl-space-space-halfunit);
+  justify-content: center;
+}
+.altaalumno-text16 {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-style: normal;
+  font-family: "PT Sans";
+  font-weight: 700;
+}
+.altaalumno-container36 {
+  flex: 0 0 auto;
+  width: auto;
+  height: var(--dl-size-size-small);
+  display: flex;
+  align-items: center;
+  margin-left: var(--dl-space-space-oneandhalfunits);
+  margin-bottom: var(--dl-space-space-halfunit);
+  justify-content: center;
+}
+.altaalumno-text17 {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-style: normal;
+  font-family: "PT Sans";
+  font-weight: 700;
+}
+.altaalumno-container37 {
+  flex: 0 0 auto;
+  width: auto;
+  height: var(--dl-size-size-small);
+  display: flex;
+  align-items: center;
+  margin-left: var(--dl-space-space-oneandhalfunits);
+  margin-bottom: var(--dl-space-space-halfunit);
+  justify-content: center;
+}
+.altaalumno-text18 {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-style: normal;
+  font-family: "PT Sans";
+  font-weight: 700;
+}
+.altaalumno-container38 {
+  flex: 0 0 auto;
+  width: auto;
+  height: Small;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.altaalumno-container39 {
+  flex: 0 0 auto;
+  width: auto;
+  height: var(--dl-size-size-small);
+  display: flex;
+  align-items: center;
+  margin-left: var(--dl-space-space-oneandhalfunits);
+  margin-bottom: var(--dl-space-space-halfunit);
+  justify-content: center;
+}
+.altaalumno-text19 {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-style: normal;
+  font-family: "PT Sans";
+  font-weight: 700;
+}
+.altaalumno-container40 {
+  flex: 1;
+  width: var(--dl-size-size-xlarge);
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  border-color: #ffffff;
+  border-style: dashed;
+  border-width: 1px;
+  flex-direction: column;
+  justify-content: flex-start;
+  border-top-width: 0px;
+  border-left-width: 1px;
+  border-right-width: 1px;
+  border-bottom-width: 0px;
+}
+.altaalumno-container41 {
+  flex: 0 0 auto;
+  width: auto;
+  height: var(--dl-size-size-small);
+  display: flex;
+  align-self: center;
+  align-items: center;
+  margin-left: 0px;
+  margin-bottom: var(--dl-space-space-halfunit);
+  justify-content: center;
+}
+.altaalumno-text20 {
+  color: rgb(255, 255, 255);
+  font-style: normal;
+  font-family: "PT Sans";
+  font-weight: 700;
+}
+.altaalumno-radiobutton07 {
+  width: 30px;
+  height: 30px;
+  margin-left: var(--dl-space-space-unit);
+  margin-right: 0px;
+}
+.altaalumno-container42 {
+  width: auto;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  margin-left: var(--dl-space-space-oneandhalfunits);
+  margin-bottom: var(--dl-space-space-halfunit);
+  justify-content: center;
+}
+.altaalumno-text21 {
+  color: rgb(255, 255, 255);
+  height: 100%;
+  font-size: 20px;
+  font-style: normal;
+  font-family: "PT Sans";
+  font-weight: 700;
+}
+.altaalumno-radiobutton08 {
+  width: 43px;
+  height: 43px;
+  margin-right: var(--dl-space-space-unit);
+}
+.altaalumno-text22 {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-style: normal;
+  font-family: "PT Sans";
+  font-weight: 700;
+  margin-right: var(--dl-space-space-unit);
+}
+.altaalumno-radiobutton09 {
+  width: 43px;
+  height: 43px;
+  margin-right: var(--dl-space-space-twounits);
+}
+.altaalumno-container43 {
+  flex: 0 0 auto;
+  width: auto;
+  height: var(--dl-size-size-small);
+  display: flex;
+  align-items: center;
+  margin-left: var(--dl-space-space-oneandhalfunits);
+  margin-bottom: var(--dl-space-space-halfunit);
+  justify-content: center;
+}
+.altaalumno-text23 {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-style: normal;
+  font-family: "PT Sans";
+  font-weight: 700;
+}
+.altaalumno-container44 {
+  flex: 0 0 auto;
+  width: auto;
+  height: var(--dl-size-size-small);
+  display: flex;
+  align-items: center;
+  margin-left: var(--dl-space-space-oneandhalfunits);
+  margin-bottom: var(--dl-space-space-halfunit);
+  justify-content: center;
+}
+.altaalumno-text24 {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-style: normal;
+  font-family: "PT Sans";
+  font-weight: 700;
+}
+.altaalumno-container45 {
+  flex: 0 0 auto;
+  width: auto;
+  height: var(--dl-size-size-small);
+  display: flex;
+  align-items: center;
+  margin-left: var(--dl-space-space-oneandhalfunits);
+  margin-bottom: var(--dl-space-space-halfunit);
+  justify-content: center;
+}
+.altaalumno-text25 {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-style: normal;
+  font-family: "PT Sans";
+  font-weight: 700;
+}
+.altaalumno-container46 {
+  flex: 0 0 auto;
+  width: auto;
+  height: var(--dl-size-size-small);
+  display: flex;
+  align-items: center;
+  margin-left: var(--dl-space-space-oneandhalfunits);
+  margin-bottom: var(--dl-space-space-halfunit);
+  justify-content: center;
+}
+.altaalumno-text26 {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-style: normal;
+  font-family: "PT Sans";
+  font-weight: 700;
+}
+.altaalumno-container47 {
+  flex: 0 0 auto;
+  width: auto;
+  height: var(--dl-size-size-small);
+  display: flex;
+  align-items: center;
+  margin-left: var(--dl-space-space-oneandhalfunits);
+  margin-bottom: var(--dl-space-space-halfunit);
+  justify-content: center;
+}
+.altaalumno-text27 {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-style: normal;
+  font-family: "PT Sans";
+  font-weight: 700;
+}
+.altaalumno-container48 {
+  flex: 0 0 auto;
+  width: auto;
+  height: var(--dl-size-size-small);
+  display: flex;
+  align-items: center;
+  margin-left: var(--dl-space-space-oneandhalfunits);
+  margin-bottom: var(--dl-space-space-halfunit);
+  justify-content: center;
+}
+.altaalumno-text28 {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-style: normal;
+  font-family: "PT Sans";
+  font-weight: 700;
+}
+.altaalumno-container49 {
+  flex: 0 0 auto;
+  width: auto;
+  height: var(--dl-size-size-small);
+  display: flex;
+  align-items: center;
+  margin-left: var(--dl-space-space-oneandhalfunits);
+  margin-bottom: var(--dl-space-space-halfunit);
+  justify-content: center;
+}
+.altaalumno-text29 {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-style: normal;
+  font-family: "PT Sans";
+  font-weight: 700;
+}
+.altaalumno-container50 {
+  flex: 0 0 auto;
+  width: auto;
+  height: var(--dl-size-size-small);
+  display: flex;
+  align-items: center;
+  margin-left: var(--dl-space-space-oneandhalfunits);
+  margin-bottom: var(--dl-space-space-halfunit);
+  justify-content: center;
+}
+.altaalumno-text30 {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-style: normal;
+  font-family: "PT Sans";
+  font-weight: 700;
+}
+.altaalumno-container51 {
+  flex: 0 0 auto;
+  width: auto;
+  height: var(--dl-size-size-small);
+  display: flex;
+  align-items: center;
+  margin-left: var(--dl-space-space-oneandhalfunits);
+  margin-bottom: var(--dl-space-space-halfunit);
+  justify-content: center;
+}
+.altaalumno-text31 {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-style: normal;
+  font-family: "PT Sans";
+  font-weight: 700;
+}
+.altaalumno-container52 {
+  flex: 0 0 auto;
+  width: auto;
+  height: var(--dl-size-size-small);
+  display: flex;
+  align-items: center;
+  margin-left: var(--dl-space-space-oneandhalfunits);
+  margin-bottom: var(--dl-space-space-halfunit);
+  justify-content: center;
+}
+.altaalumno-text32 {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-style: normal;
+  font-family: "PT Sans";
+  font-weight: 700;
+}
+.altaalumno-container53 {
+  flex: 1;
+  width: var(--dl-size-size-xlarge);
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  border-color: #ffffff;
+  border-style: dashed;
+  border-width: 1px;
+  flex-direction: column;
+  justify-content: flex-start;
+  border-top-width: 0px;
+  border-left-width: 1px;
+  border-right-width: 1px;
+  border-bottom-width: 0px;
+}
+.altaalumno-container54 {
+  flex: 0 0 auto;
+  width: auto;
+  height: var(--dl-size-size-small);
+  display: flex;
+  align-self: center;
+  align-items: center;
+  margin-left: 0px;
+  margin-bottom: var(--dl-space-space-halfunit);
+  justify-content: center;
+}
+.altaalumno-text33 {
+  color: rgb(255, 255, 255);
+  font-style: normal;
+  font-family: "PT Sans";
+  font-weight: 700;
+}
+.altaalumno-radiobutton10 {
+  width: 30px;
+  height: 30px;
+  margin-left: var(--dl-space-space-unit);
+  margin-right: 0px;
+}
+.altaalumno-container55 {
+  width: auto;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  margin-left: var(--dl-space-space-oneandhalfunits);
+  margin-bottom: var(--dl-space-space-halfunit);
+  justify-content: center;
+}
+.altaalumno-text34 {
+  color: rgb(255, 255, 255);
+  height: 100%;
+  font-size: 20px;
+  font-style: normal;
+  font-family: "PT Sans";
+  font-weight: 700;
+}
+.altaalumno-radiobutton11 {
+  width: 43px;
+  height: 43px;
+  margin-right: var(--dl-space-space-unit);
+}
+.altaalumno-text35 {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-style: normal;
+  font-family: "PT Sans";
+  font-weight: 700;
+  margin-right: var(--dl-space-space-unit);
+}
+.altaalumno-radiobutton12 {
+  width: 43px;
+  height: 43px;
+  margin-right: var(--dl-space-space-twounits);
+}
+.altaalumno-container56 {
+  flex: 0 0 auto;
+  width: auto;
+  height: var(--dl-size-size-small);
+  display: flex;
+  align-items: center;
+  margin-left: var(--dl-space-space-oneandhalfunits);
+  margin-bottom: var(--dl-space-space-halfunit);
+  justify-content: center;
+}
+.altaalumno-text36 {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-style: normal;
+  font-family: "PT Sans";
+  font-weight: 700;
+}
+.altaalumno-container57 {
+  flex: 0 0 auto;
+  width: auto;
+  height: var(--dl-size-size-small);
+  display: flex;
+  align-items: center;
+  margin-left: var(--dl-space-space-oneandhalfunits);
+  margin-bottom: var(--dl-space-space-halfunit);
+  justify-content: center;
+}
+.altaalumno-text37 {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-style: normal;
+  font-family: "PT Sans";
+  font-weight: 700;
+}
+.altaalumno-container58 {
+  flex: 0 0 auto;
+  width: auto;
+  height: var(--dl-size-size-small);
+  display: flex;
+  align-items: center;
+  margin-left: var(--dl-space-space-oneandhalfunits);
+  margin-bottom: var(--dl-space-space-halfunit);
+  justify-content: center;
+}
+.altaalumno-text38 {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-style: normal;
+  font-family: "PT Sans";
+  font-weight: 700;
+}
+.altaalumno-container59 {
+  flex: 0 0 auto;
+  width: auto;
+  height: var(--dl-size-size-small);
+  display: flex;
+  align-items: center;
+  margin-left: var(--dl-space-space-oneandhalfunits);
+  margin-bottom: var(--dl-space-space-halfunit);
+  justify-content: center;
+}
+.altaalumno-text39 {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-style: normal;
+  font-family: "PT Sans";
+  font-weight: 700;
+}
+.altaalumno-container60 {
+  flex: 0 0 auto;
+  width: auto;
+  height: var(--dl-size-size-small);
+  display: flex;
+  align-items: center;
+  margin-left: var(--dl-space-space-oneandhalfunits);
+  margin-bottom: var(--dl-space-space-halfunit);
+  justify-content: center;
+}
+.altaalumno-text40 {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-style: normal;
+  font-family: "PT Sans";
+  font-weight: 700;
+}
+.altaalumno-container61 {
+  flex: 0 0 auto;
+  width: auto;
+  height: var(--dl-size-size-small);
+  display: flex;
+  align-items: center;
+  margin-left: var(--dl-space-space-oneandhalfunits);
+  margin-bottom: var(--dl-space-space-halfunit);
+  justify-content: center;
+}
+.altaalumno-text41 {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-style: normal;
+  font-family: "PT Sans";
+  font-weight: 700;
+}
+.altaalumno-container62 {
+  flex: 0 0 auto;
+  width: auto;
+  height: var(--dl-size-size-small);
+  display: flex;
+  align-items: center;
+  margin-left: var(--dl-space-space-oneandhalfunits);
+  margin-bottom: var(--dl-space-space-halfunit);
+  justify-content: center;
+}
+.altaalumno-text42 {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-style: normal;
+  font-family: "PT Sans";
+  font-weight: 700;
+}
+.altaalumno-container63 {
+  flex: 0 0 auto;
+  width: auto;
+  height: var(--dl-size-size-small);
+  display: flex;
+  align-items: center;
+  margin-left: var(--dl-space-space-oneandhalfunits);
+  margin-bottom: var(--dl-space-space-halfunit);
+  justify-content: center;
+}
+.altaalumno-text43 {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-style: normal;
+  font-family: "PT Sans";
+  font-weight: 700;
+}
+.altaalumno-container64 {
+  flex: 0 0 auto;
+  width: auto;
+  height: var(--dl-size-size-small);
+  display: flex;
+  align-items: center;
+  margin-left: var(--dl-space-space-oneandhalfunits);
+  margin-bottom: var(--dl-space-space-halfunit);
+  justify-content: center;
+}
+.altaalumno-text44 {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-style: normal;
+  font-family: "PT Sans";
+  font-weight: 700;
+}
+.altaalumno-container65 {
+  flex: 0 0 auto;
+  width: auto;
+  height: var(--dl-size-size-small);
+  display: flex;
+  align-items: center;
+  margin-left: var(--dl-space-space-oneandhalfunits);
+  margin-bottom: var(--dl-space-space-halfunit);
+  justify-content: center;
+}
+.altaalumno-text45 {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-style: normal;
+  font-family: "PT Sans";
+  font-weight: 700;
+}
+.altaalumno-container66 {
+  flex: 0 0 auto;
+  width: auto;
+  height: var(--dl-size-size-small);
+  display: flex;
+  align-items: center;
+  margin-left: var(--dl-space-space-oneandhalfunits);
+  margin-bottom: var(--dl-space-space-halfunit);
+  justify-content: center;
+}
+.altaalumno-text46 {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-style: normal;
+  font-family: "PT Sans";
+  font-weight: 700;
+}
+.altaalumno-container67 {
+  flex: 1;
+  width: var(--dl-size-size-xlarge);
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  border-color: #ffffff;
+  border-style: dashed;
+  border-width: 1px;
+  flex-direction: column;
+  justify-content: flex-start;
+  border-top-width: 0px;
+  border-left-width: 1px;
+  border-right-width: 0px;
+  border-bottom-width: 0px;
+}
+.altaalumno-container68 {
+  flex: 0 0 auto;
+  width: auto;
+  height: var(--dl-size-size-small);
+  display: flex;
+  align-self: center;
+  align-items: center;
+  margin-left: 0px;
+  margin-bottom: var(--dl-space-space-halfunit);
+  justify-content: center;
+}
+.altaalumno-text47 {
+  color: rgb(255, 255, 255);
+  font-style: normal;
+  font-family: "PT Sans";
+  font-weight: 700;
+}
+.altaalumno-radiobutton13 {
+  width: 30px;
+  height: 30px;
+  margin-left: var(--dl-space-space-unit);
+  margin-right: 0px;
+}
+.altaalumno-container69 {
+  width: auto;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  margin-left: var(--dl-space-space-oneandhalfunits);
+  margin-bottom: var(--dl-space-space-halfunit);
+  justify-content: center;
+}
+.altaalumno-text48 {
+  color: rgb(255, 255, 255);
+  height: 100%;
+  font-size: 20px;
+  font-style: normal;
+  font-family: "PT Sans";
+  font-weight: 700;
+}
+.altaalumno-radiobutton14 {
+  width: 43px;
+  height: 43px;
+  margin-right: var(--dl-space-space-unit);
+}
+.altaalumno-text49 {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-style: normal;
+  font-family: "PT Sans";
+  font-weight: 700;
+  margin-right: var(--dl-space-space-unit);
+}
+.altaalumno-radiobutton15 {
+  width: 43px;
+  height: 43px;
+  margin-right: var(--dl-space-space-twounits);
+}
+.altaalumno-container70 {
+  width: auto;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  margin-left: var(--dl-space-space-oneandhalfunits);
+  margin-bottom: var(--dl-space-space-halfunit);
+  justify-content: center;
+}
+.altaalumno-text50 {
+  color: rgb(255, 255, 255);
+  height: 100%;
+  font-size: 20px;
+  font-style: normal;
+  font-family: "PT Sans";
+  font-weight: 700;
+}
+.altaalumno-radiobutton16 {
+  width: 43px;
+  height: 43px;
+  margin-right: var(--dl-space-space-unit);
+}
+.altaalumno-text51 {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-style: normal;
+  font-family: "PT Sans";
+  font-weight: 700;
+  margin-right: var(--dl-space-space-unit);
+}
+.altaalumno-radiobutton17 {
+  width: 43px;
+  height: 43px;
+  margin-right: var(--dl-space-space-twounits);
+}
+.altaalumno-container71 {
+  flex: 0 0 auto;
+  width: auto;
+  height: var(--dl-size-size-small);
+  display: flex;
+  align-items: center;
+  margin-left: var(--dl-space-space-oneandhalfunits);
+  margin-bottom: var(--dl-space-space-halfunit);
+  justify-content: center;
+}
+.altaalumno-text52 {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-style: normal;
+  font-family: "PT Sans";
+  font-weight: 700;
+}
+.altaalumno-container72 {
+  flex: 0 0 auto;
+  width: auto;
+  height: var(--dl-size-size-small);
+  display: flex;
+  align-items: center;
+  margin-left: var(--dl-space-space-oneandhalfunits);
+  margin-bottom: var(--dl-space-space-halfunit);
+  justify-content: center;
+}
+.altaalumno-text53 {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-style: normal;
+  font-family: "PT Sans";
+  font-weight: 700;
+}
+.altaalumno-container73 {
+  flex: 0 0 auto;
+  width: auto;
+  height: var(--dl-size-size-small);
+  display: flex;
+  align-items: center;
+  margin-left: var(--dl-space-space-oneandhalfunits);
+  margin-bottom: var(--dl-space-space-halfunit);
+  justify-content: center;
+}
+.altaalumno-text54 {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-style: normal;
+  font-family: "PT Sans";
+  font-weight: 700;
+}
+.altaalumno-container74 {
+  flex: 0 0 auto;
+  width: auto;
+  height: var(--dl-size-size-small);
+  display: flex;
+  align-items: center;
+  margin-left: var(--dl-space-space-oneandhalfunits);
+  margin-bottom: var(--dl-space-space-halfunit);
+  justify-content: center;
+}
+.altaalumno-text55 {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-style: normal;
+  font-family: "PT Sans";
+  font-weight: 700;
+}
+.altaalumno-container75 {
+  flex: 0 0 auto;
+  width: auto;
+  height: var(--dl-size-size-small);
+  display: flex;
+  align-items: center;
+  margin-left: var(--dl-space-space-oneandhalfunits);
+  margin-bottom: var(--dl-space-space-halfunit);
+  justify-content: center;
+}
+.altaalumno-text56 {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-style: normal;
+  font-family: "PT Sans";
+  font-weight: 700;
+}
+.altaalumno-container76 {
+  flex: 0 0 auto;
+  width: auto;
+  height: var(--dl-size-size-small);
+  display: flex;
+  align-items: center;
+  margin-left: var(--dl-space-space-oneandhalfunits);
+  margin-bottom: var(--dl-space-space-halfunit);
+  justify-content: center;
+}
+.altaalumno-text57 {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-style: normal;
+  font-family: "PT Sans";
+  font-weight: 700;
+}
+.altaalumno-container77 {
+  flex: 0 0 auto;
+  width: auto;
+  height: var(--dl-size-size-small);
+  display: flex;
+  align-items: center;
+  margin-left: var(--dl-space-space-oneandhalfunits);
+  margin-bottom: var(--dl-space-space-halfunit);
+  justify-content: center;
+}
+.altaalumno-text58 {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-style: normal;
+  font-family: "PT Sans";
+  font-weight: 700;
+}
+.altaalumno-container78 {
+  flex: 0 0 auto;
+  width: auto;
+  height: var(--dl-size-size-small);
+  display: flex;
+  align-items: center;
+  margin-left: var(--dl-space-space-oneandhalfunits);
+  margin-bottom: var(--dl-space-space-halfunit);
+  justify-content: center;
+}
+.altaalumno-text59 {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-style: normal;
+  font-family: "PT Sans";
+  font-weight: 700;
+}
+.altaalumno-container79 {
+  flex: 0 0 auto;
+  width: auto;
+  height: var(--dl-size-size-small);
+  display: flex;
+  align-items: center;
+  margin-left: var(--dl-space-space-oneandhalfunits);
+  margin-bottom: var(--dl-space-space-halfunit);
+  justify-content: center;
+}
+.altaalumno-text60 {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-style: normal;
+  font-family: "PT Sans";
+  font-weight: 700;
+}
+.altaalumno-container80 {
+  flex: 0 0 auto;
+  width: 1300px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--dl-space-space-twounits);
+  justify-content: flex-end;
+}
+.altaalumno-navlink {
+  margin-right: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.altaalumno-navlink1 {
+  margin-right: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.altaalumno-navlink2 {
+  text-decoration: none;
+}

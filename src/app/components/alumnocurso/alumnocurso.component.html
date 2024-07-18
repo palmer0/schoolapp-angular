@@ -1,0 +1,29 @@
+<div class="alumnocurso-container">
+  <div class="alumnocurso-container1">
+    <span class="alumnocurso-text">{{ alumno.nombre }}</span>
+  </div>
+  <div class="alumnocurso-container2">
+    <a [routerLink]="['/incidencias', userId, alumno.id]" class="mainpadres-navlink4">
+    <!-- <a [routerLink]="['/mensajesenviados', alumno.id, userId ]" class="alumnocurso-navlink"> -->
+      <svg viewBox="0 0 804.5714285714286 1024" class="alumnocurso-icon">
+        <path
+          d="M741.714 755.429c0 14.286-5.714 28.571-16 38.857l-77.714 77.714c-10.286 10.286-24.571 16-38.857 16s-28.571-5.714-38.857-16l-168-168-168 168c-10.286 10.286-24.571 16-38.857 16s-28.571-5.714-38.857-16l-77.714-77.714c-10.286-10.286-16-24.571-16-38.857s5.714-28.571 16-38.857l168-168-168-168c-10.286-10.286-16-24.571-16-38.857s5.714-28.571 16-38.857l77.714-77.714c10.286-10.286 24.571-16 38.857-16s28.571 5.714 38.857 16l168 168 168-168c10.286-10.286 24.571-16 38.857-16s28.571 5.714 38.857 16l77.714 77.714c10.286 10.286 16 24.571 16 38.857s-5.714 28.571-16 38.857l-168 168 168 168c10.286 10.286 16 24.571 16 38.857z"
+        ></path>
+      </svg>
+    </a>
+    <a [routerLink]="['/chat', alumno.id, userId ]" class="alumnocurso-navlink">
+      <svg viewBox="0 0 1024 1024" class="alumnocurso-icon2">
+        <path
+          d="M768 342v-86h-512v86h512zM598 598v-86h-342v86h342zM256 384v86h512v-86h-512zM854 86q34 0 59 25t25 59v512q0 34-25 60t-59 26h-598l-170 170v-768q0-34 25-59t59-25h684z"
+        ></path>
+      </svg>
+    </a>
+    <a [routerLink]="['/chat', padreId, userId]" class="alumnocurso-navlink1">
+      <svg viewBox="0 0 1024 1024" class="alumnocurso-icon4">
+        <path
+          d="M384 554q64 0 140 18t139 60 63 94v128h-684v-128q0-52 63-94t139-60 140-18zM640 512q-26 0-56-10 56-66 56-160 0-38-16-86t-40-76q30-10 56-10 70 0 120 51t50 121-50 120-120 50zM214 342q0-70 50-121t120-51 120 51 50 121-50 120-120 50-120-50-50-120zM712 560q106 16 188 59t82 107v128h-172v-128q0-98-98-166z"
+        ></path>
+      </svg>
+    </a>
+  </div>
+</div>

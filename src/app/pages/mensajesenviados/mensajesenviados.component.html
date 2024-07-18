@@ -1,0 +1,35 @@
+<div class="mensajesenviados-container">
+  <app-headerlogin
+    rootClassName="headernologin-root-class-name6"
+  ></app-headerlogin>
+  <div class="mensajesenviados-container1">
+    <div class="mensajesenviados-container2">
+      <span class="mensajesenviados-text">Enviar incidencia</span>
+    </div>
+    <div class="mensajesenviados-container3">
+      <form (ngSubmit)="enviarIncidencia()"></form>
+      <input
+        type="text"
+        placeholder="Asignatura"
+        class="mensajesenviados-textinput input"
+        [(ngModel)]="asignatura" name="asignatura" required 
+      />
+      <textarea
+        placeholder="Mensaje"
+        class="mensajesenviados-textarea textarea"
+        [(ngModel)]="mensaje" name="mensaje" required
+      ></textarea>
+      <input
+        type="text"
+        placeholder="Nombre"
+        class="mensajesenviados-textinput1 input"
+        [(ngModel)]="profesorNombre" name="profesorNombre" required
+      />
+      <div class="mensajesenviados-container4">
+        <button (click)="enviarIncidencia()"  type="submit" class="mensajesenviados-navlink button">
+          <span>Enviar</span>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>

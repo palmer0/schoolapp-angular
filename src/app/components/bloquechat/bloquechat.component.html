@@ -1,0 +1,33 @@
+<div class="bloquechat-container" [ngClass]="rootClassName">
+  <div class="bloquechat-container02">
+    <div class="bloquechat-container03">
+      <img
+        [attr.alt]="imageAlt"
+        [attr.src]="img"
+        class="bloquechat-image"
+      />
+      <div class="bloquechat-container04">
+        <div class="bloquechat-container05">
+          <span class="bloquechat-text">
+            {{nombre}} -  ({{rol}})
+          </span>
+        </div>
+      </div>
+    </div>
+    <div class="bloquechat-container6">
+      <ng-container *ngFor="let mensaje of mensajes">
+        <ng-container *ngIf="mensaje.userId === userId; else otroContenedor">
+          <div class="bloquechat-container7">
+          <span  class="bloquechat-text5">{{ mensaje.content }}</span>
+        </div>
+        </ng-container>
+        <ng-template #otroContenedor>
+          <div class="bloquechat-container8">
+            <span  class="bloquechat-text6">{{ mensaje.content }}</span>
+          </div>
+        </ng-template>
+      </ng-container>
+    </div>
+    
+  </div>
+</div>

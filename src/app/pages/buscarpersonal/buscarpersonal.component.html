@@ -1,0 +1,44 @@
+<div class="buscaralumno-container">
+  <app-headerlogin rootClassName="headerlogin-root-class-name19"></app-headerlogin>
+  <div class="buscaralumno-container1">
+    <div class="buscaralumno-container2">
+      <input
+        type="text"
+        placeholder="🔍 Buscar por nombre"
+        class="buscaralumno-textinput input"
+        [(ngModel)]="terminoBusqueda"
+        (input)="buscarUsuarios()"
+      />
+    </div>
+    <div class="buscaralumno-container4">
+      <div *ngFor="let alumno of alumnosBuscados" class="alumno-card">
+        <div (click)="seleccionarUsuario(alumno)">
+          <a *ngIf="alumno.rol === 'alumno'; else otroUsuario">
+            <app-usuarioalumno
+              [nombre]="alumno.nombre"
+              [curso]="alumno.curso"
+              [grupo]="alumno.grupo"
+              [foto]="alumno.foto"
+              rootClassName="usuarioalumno-root-class-name"
+              class="buscaralumno-component1"
+            ></app-usuarioalumno>
+          </a>
+          <ng-template #otroUsuario>
+            <a [routerLink]="['/altaempleado', userId, alumno.id]">
+              <app-usuarioalumno
+                [nombre]="alumno.nombre"
+                [rol]="alumno.rol"
+                [foto]="alumno.foto"
+                rootClassName="usuarioalumno-root-class-name"
+                class="buscaralumno-component1"
+              ></app-usuarioalumno>
+            </a>
+          </ng-template>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+

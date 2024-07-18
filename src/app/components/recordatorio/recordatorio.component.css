@@ -1,0 +1,68 @@
+:host { 
+  display: contents; 
+}
+.recordatorio-container {
+  width: 732px;
+  height: auto;
+  display: flex;
+  padding: var(--dl-space-space-unit);
+  position: relative;
+  align-self: center;
+  margin-top: var(--dl-space-space-unit);
+  align-items: center;
+  margin-left: 0px;
+  margin-bottom: var(--dl-space-space-unit);
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--dl-color-success-header);
+}
+.recordatorio-container1 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  border-color: #000000;
+  border-style: solid;
+  border-width: 2px;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: #ffffff;
+}
+.recordatorio-container2 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  margin-top: var(--dl-space-space-oneandhalfunits);
+  align-items: center;
+  margin-left: var(--dl-space-space-oneandhalfunits);
+}
+.recordatorio-container3 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-self: flex-end;
+  margin-top: var(--dl-space-space-halfunit);
+  align-items: center;
+  margin-left: var(--dl-space-space-oneandhalfunits);
+  margin-right: var(--dl-space-space-oneandhalfunits);
+  margin-bottom: var(--dl-space-space-oneandhalfunits);
+}
+.recordatorio-button {
+  flex: 1;
+  color: rgb(255, 255, 255);
+  width: auto;
+  height: var(--dl-size-size-small);
+  font-size: 20px;
+  transition: 0.3s;
+  background-color: var(--dl-color-success-header);
+}
+.recordatorio-button:hover {
+  color: #000000;
+  background-color: #c4e6b5;
+}
+.recordatorio-button:active {
+  background-color: #135903;
+}

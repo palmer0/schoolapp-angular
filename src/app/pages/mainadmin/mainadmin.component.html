@@ -1,0 +1,62 @@
+<div class="mainadmin-container">
+  <app-headerlogin
+    [userId]="userId"
+    [ruta]="mainAdminroute"
+    rootClassName="headerlogin-root-class-name2"
+  ></app-headerlogin>
+  <app-userwelcome
+    [text]="userName"
+    rootClassName="userwelcome-root-class-name3"
+  ></app-userwelcome>
+  <div class="mainadmin-container01">
+    <div class="mainadmin-container02">
+      <div class="mainadmin-container03">
+        <div class="mainadmin-container04">
+          <span class="mainadmin-text06">Configuración:</span>
+          <a [routerLink]="['/altaempleado', userId]" class="mainadmin-navlink4">
+            -Dar de alta a un empleado
+          </a>
+          <a [routerLink]="['/altaalumno',  userId]" class="mainadmin-navlink5">
+            -Dar de alta a un alumno
+          </a>
+          <a [routerLink]="['/buscarpersonal', userId]" class="mainadmin-navlink6">
+            -Buscador
+          </a>
+        </div>
+        <div class="mainadmin-container05">
+          <div class="mainadmin-container06">
+            <div class="mainadmin-container07">
+              <div class="mainadmin-container08">
+                <span class="mainadmin-text01">Chat:</span>
+              </div>
+              <a [routerLink]="['/nuevochat', userId]" class="mainadmin-navlink3">
+                <span>-Seleccionar chat</span>
+                <br />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="mainadmin-container09">
+        <div class="mainadmin-container10">
+          <div class="mainadmin-container11">
+            <span class="mainadmin-text">Personal:</span>
+            <a [routerLink]="['/recordatorios', userId]" class="mainadmin-navlink">
+              -Ver lista de recordatorios
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="mainadmin-container12">
+        <div class="mainadmin-container13">
+          <div class="mainadmin-container14">
+            <span class="mainadmin-text07">Cursos:</span>
+              <a [routerLink]="['/plantillahorario', userId]" class="mainadmin-navlink4">
+                -Gestión de horarios
+              </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

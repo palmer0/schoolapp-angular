@@ -1,0 +1,16 @@
+:host { 
+  display: contents; 
+}
+.mensajesrecibidos-container {
+  width: 100%;
+  display: flex;
+  min-height: 100vh;
+  align-items: flex-start;
+  flex-direction: column;
+  background-color: #c1ffc2;
+}
+@media(max-width: 1200px) {
+  .mensajesrecibidos-container {
+    background-color: #c1ffc2;
+  }
+}

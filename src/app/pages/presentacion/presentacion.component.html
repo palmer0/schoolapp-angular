@@ -1,0 +1,54 @@
+<div class="presentacion-container">
+  <app-headernologin rootClassName="headernologin-root-class-name15"></app-headernologin>
+  <div class="presentacion-container1">
+    <div class="presentacion-container2">
+      <h1 class="presentacion-text">¿Qué es SchoolApp?</h1>
+      <p class="presentacion-text1">
+        <span class="presentacion-text2">
+          Esta plataforma educativa ofrece un espacio digital donde convergen el
+          progreso educativo, la tecnología, la innovación y la colaboración
+          comunitaria. SchoolApp pretende forjar un vínculo sólido entre
+          profesores, padres, alumnos y todo el personal involucrado en el
+          proceso educativo. Nuestra misión es transformar la educación
+          convencional mediante la introducción de una plataforma que trasciende
+          las barreras físicas, brindando a cada usuario una experiencia
+          educativa enriquecedora y conectada.
+        </span>
+        <br class="presentacion-text3 Content" />
+      </p>
+    </div>
+    <div class="presentacion-container3">
+      <img alt="image"
+        src="https://images.unsplash.com/photo-1643199121319-b3b5695e4acb?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDM1fHxjb21wdXRlcnMlMjByb29tJTIwfGVufDB8fHx8MTcwMjM4NjEzMHww&amp;ixlib=rb-4.0.3&amp;w=1400"
+        class="presentacion-image" />
+    </div>
+    <div class="presentacion-container4">
+      <h1 class="presentacion-text4">¿Cómo funciona?</h1>
+      <p class="presentacion-text5">
+        <span class="presentacion-text6">
+          Tras iniciar sesión se abrirá el perfil correspondiente a cada
+          usuario, entre los que se encuentran &quot;alumnos&quot;,
+          &quot;padres/madres&quot;, &quot;profesorado&quot;, &quot;administración&quot; 
+          y &quot;conserjería&quot;.
+          Cada uno de ellos cuenta con funciones específicas diseñadas para
+          optimizar su participación y contribución al entorno educativo. Desde
+          la gestión académica y la comunicación fluida hasta la colaboración en
+          proyectos y la supervisión administrativa, esta aplicación ofrece un
+          conjunto diverso de herramientas intuitivas que se adaptan a las
+          necesidades individuales de cada usuario.
+        </span>
+        <br class="Content" />
+      </p>
+    </div>
+    <div class="presentacion-container5">
+      <h1 class="presentacion-text8">¿Quieres saber más? Contáctanos</h1>
+      <form class="presentacion-form">
+        <input type="text" placeholder="Nombre" class="presentacion-textinput input" [(ngModel)]="nombre" name="nombre" required />
+        <input type="text" placeholder="Email" class="presentacion-textinput1 input" [(ngModel)]="email" name="email" required />
+        <input type="text" rows="Teléfono" placeholder="Teléfono" class="presentacion-textinput2 input"  [(ngModel)]="telefono" name="telefono" />
+        <textarea placeholder="Mensaje" class="presentacion-textarea textarea"[(ngModel)]="mensaje" name="mensaje" required></textarea>
+        <button (click)="onSubmit()" type="button" class="presentacion-button button">Enviar</button>
+      </form>
+    </div>
+  </div>
+</div>

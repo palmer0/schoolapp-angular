@@ -1,0 +1,97 @@
+:host { 
+  display: contents; 
+}
+.nuevorecordatorio-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: var(--dl-color-success-background);
+}
+.nuevorecordatorio-container1 {
+  flex: 0 0 auto;
+  width: auto;
+  display: flex;
+  position: relative;
+  align-self: center;
+  margin-top: var(--dl-space-space-fourunits);
+  align-items: center;
+  padding-top: 0px;
+  border-color: #469634;
+  border-width: 30px;
+  padding-left: 0px;
+  padding-right: 0px;
+  flex-direction: column;
+  padding-bottom: 0px;
+  justify-content: center;
+  border-top-width: 30px;
+}
+.nuevorecordatorio-container2 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-self: flex-start;
+  margin-top: var(--dl-space-space-twounits);
+  align-items: center;
+  margin-left: var(--dl-space-space-twounits);
+  margin-bottom: var(--dl-space-space-twounits);
+  justify-content: center;
+  background-color: #469634;
+}
+.nuevorecordatorio-text {
+  color: rgb(255, 255, 255);
+  margin: 10px;
+  font-size: 30px;
+  align-self: center;
+  font-style: normal;
+  font-family: "PT Sans";
+  font-weight: 600;
+  letter-spacing: 1.5px;
+}
+.nuevorecordatorio-container3 {
+  flex: 0 0 auto;
+  width: auto;
+  display: flex;
+  align-items: center;
+  margin-left: var(--dl-space-space-twounits);
+  margin-right: var(--dl-space-space-twounits);
+  margin-bottom: var(--dl-space-space-twounits);
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.nuevorecordatorio-textarea {
+  width: 932px;
+  height: 208px;
+  margin-bottom: var(--dl-space-space-twounits);
+}
+.nuevorecordatorio-container4 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-self: center;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+.nuevorecordatorio-navlink {
+  align-self: center;
+  text-decoration: none;
+}
+@media(max-width: 1200px) {
+  .nuevorecordatorio-container2 {
+    width: auto;
+    margin-left: var(--dl-space-space-twounits);
+  }
+  .nuevorecordatorio-textarea {
+    width: 1000px;
+    margin-bottom: var(--dl-space-space-threeunits);
+  }
+  .nuevorecordatorio-container4 {
+    width: 1000px;
+    margin-bottom: var(--dl-space-space-twounits);
+  }
+}

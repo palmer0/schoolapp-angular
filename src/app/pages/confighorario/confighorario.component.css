@@ -1,0 +1,346 @@
+:host { 
+  display: contents; 
+}
+.confighorario-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: var(--dl-color-success-background);
+}
+.confighorario-container01 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  padding: var(--dl-space-space-halfunit);
+  align-self: flex-start;
+  margin-top: var(--dl-space-space-oneandhalfunits);
+  align-items: center;
+  margin-left: var(--dl-space-space-oneandhalfunits);
+  margin-bottom: var(--dl-space-space-unit);
+  justify-content: flex-start;
+  background-color: var(--dl-color-success-header);
+}
+.confighorario-text {
+  color: rgb(255, 255, 255);
+  font-size: 24px;
+  font-style: normal;
+  font-family: "PT Sans";
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+.confighorario-container02 {
+  flex: 0 0 auto;
+  display: flex;
+  align-self: center;
+  margin-top: 04px;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.confighorario-container03 {
+  flex: 0 0 auto;
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.confighorario-container04 {
+  flex: 0 0 auto;
+  width: 200px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  margin-left: var(--dl-space-space-twounits);
+  margin-right: var(--dl-space-space-twounits);
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--dl-color-success-header);
+}
+.confighorario-navlink {
+  color: #ffffff;
+  font-size: 30px;
+  font-style: normal;
+  font-family: "PT Sans";
+  font-weight: 700;
+  text-decoration: none;
+}
+.confighorario-container05 {
+  flex: 0 0 auto;
+  width: 200px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  margin-left: var(--dl-space-space-twounits);
+  margin-right: var(--dl-space-space-twounits);
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--dl-color-success-header);
+}
+.confighorario-text01 {
+  color: #ffffff;
+  font-size: 30px;
+  font-style: normal;
+  font-family: "PT Sans";
+  font-weight: 700;
+}
+.confighorario-container06 {
+  flex: 0 0 auto;
+  width: 200px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  margin-left: var(--dl-space-space-twounits);
+  margin-right: var(--dl-space-space-twounits);
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--dl-color-success-header);
+}
+.confighorario-text02 {
+  color: #ffffff;
+  font-size: 30px;
+  font-style: normal;
+  font-family: "PT Sans";
+  font-weight: 700;
+}
+.confighorario-container07 {
+  flex: 0 0 auto;
+  width: 200px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  margin-left: var(--dl-space-space-twounits);
+  margin-right: var(--dl-space-space-twounits);
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--dl-color-success-header);
+}
+.confighorario-text03 {
+  color: #ffffff;
+  font-size: 30px;
+  font-style: normal;
+  font-family: "PT Sans";
+  font-weight: 700;
+}
+.confighorario-container08 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  margin-top: var(--dl-space-space-twounits);
+  align-items: center;
+  justify-content: flex-start;
+}
+.confighorario-container09 {
+  flex: 0 0 auto;
+  width: 200px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  margin-left: var(--dl-space-space-twounits);
+  margin-right: var(--dl-space-space-twounits);
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--dl-color-success-header);
+}
+.confighorario-text04 {
+  color: #ffffff;
+  font-size: 30px;
+  font-style: normal;
+  font-family: "PT Sans";
+  font-weight: 700;
+}
+.confighorario-container10 {
+  flex: 0 0 auto;
+  width: 200px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  margin-left: var(--dl-space-space-twounits);
+  margin-right: var(--dl-space-space-twounits);
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--dl-color-success-header);
+}
+.confighorario-text05 {
+  color: #ffffff;
+  font-size: 30px;
+  font-style: normal;
+  font-family: "PT Sans";
+  font-weight: 700;
+}
+.confighorario-container11 {
+  flex: 0 0 auto;
+  width: 200px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  margin-left: var(--dl-space-space-twounits);
+  margin-right: var(--dl-space-space-twounits);
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--dl-color-success-header);
+}
+.confighorario-text06 {
+  color: #ffffff;
+  font-size: 30px;
+  font-style: normal;
+  font-family: "PT Sans";
+  font-weight: 700;
+}
+.confighorario-container12 {
+  flex: 0 0 auto;
+  width: 200px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  margin-left: var(--dl-space-space-twounits);
+  margin-right: var(--dl-space-space-twounits);
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--dl-color-success-header);
+}
+.confighorario-text07 {
+  color: #ffffff;
+  font-size: 30px;
+  font-style: normal;
+  font-family: "PT Sans";
+  font-weight: 700;
+}
+.confighorario-container13 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.confighorario-container14 {
+  flex: 0 0 auto;
+  width: 200px;
+  height: 100px;
+  display: flex;
+  margin-top: var(--dl-space-space-twounits);
+  align-items: center;
+  margin-left: var(--dl-space-space-twounits);
+  margin-right: var(--dl-space-space-twounits);
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--dl-color-success-header);
+}
+.confighorario-text08 {
+  color: #ffffff;
+  font-size: 30px;
+  font-style: normal;
+  font-family: "PT Sans";
+  font-weight: 700;
+}
+.confighorario-container15 {
+  flex: 0 0 auto;
+  width: 200px;
+  height: 100px;
+  display: flex;
+  margin-top: var(--dl-space-space-twounits);
+  align-items: center;
+  margin-left: var(--dl-space-space-twounits);
+  margin-right: var(--dl-space-space-twounits);
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--dl-color-success-header);
+}
+.confighorario-text09 {
+  color: #ffffff;
+  font-size: 30px;
+  font-style: normal;
+  font-family: "PT Sans";
+  font-weight: 700;
+}
+.confighorario-container16 {
+  flex: 0 0 auto;
+  width: 200px;
+  height: 100px;
+  display: flex;
+  margin-top: var(--dl-space-space-twounits);
+  align-items: center;
+  margin-left: var(--dl-space-space-twounits);
+  margin-right: var(--dl-space-space-twounits);
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--dl-color-success-header);
+}
+.confighorario-text10 {
+  color: #ffffff;
+  font-size: 30px;
+  font-style: normal;
+  font-family: "PT Sans";
+  font-weight: 700;
+}
+.confighorario-container17 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.confighorario-container18 {
+  flex: 0 0 auto;
+  width: 200px;
+  height: 100px;
+  display: flex;
+  margin-top: var(--dl-space-space-twounits);
+  align-items: center;
+  margin-left: var(--dl-space-space-twounits);
+  margin-right: var(--dl-space-space-twounits);
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--dl-color-success-header);
+}
+.confighorario-text11 {
+  color: #ffffff;
+  font-size: 30px;
+  font-style: normal;
+  font-family: "PT Sans";
+  font-weight: 700;
+}
+.confighorario-container19 {
+  flex: 0 0 auto;
+  width: 200px;
+  height: 100px;
+  display: flex;
+  margin-top: var(--dl-space-space-twounits);
+  align-items: center;
+  margin-left: var(--dl-space-space-twounits);
+  margin-right: var(--dl-space-space-twounits);
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--dl-color-success-header);
+}
+.confighorario-text12 {
+  color: #ffffff;
+  font-size: 30px;
+  font-style: normal;
+  font-family: "PT Sans";
+  font-weight: 700;
+}
+.confighorario-container20 {
+  flex: 0 0 auto;
+  width: 200px;
+  height: 100px;
+  display: flex;
+  margin-top: var(--dl-space-space-twounits);
+  align-items: center;
+  margin-left: var(--dl-space-space-twounits);
+  margin-right: var(--dl-space-space-twounits);
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--dl-color-success-header);
+}
+.confighorario-text13 {
+  color: #ffffff;
+  font-size: 30px;
+  font-style: normal;
+  font-family: "PT Sans";
+  font-weight: 700;
+}

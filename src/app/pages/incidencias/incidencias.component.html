@@ -1,0 +1,48 @@
+  <div class="incidencias-container">
+    <app-headerlogin rootClassName="headerlogin-root-class-name13"></app-headerlogin>
+    <div class="incidencias-container01">
+      <span class="incidencias-text">Incidencias del curso: {{nombreHijo}}</span>
+    </div>
+    <div class="incidencias-container02">
+      <div *ngIf="incidencias.length > 0; else noIncidencias">
+        <div class="incidencias-anuncio" *ngFor="let incidencia of incidencias">
+          <div class="incidencias-container03">
+            <div class="incidencias-container04">
+              <span>{{incidencia.profesorNombre}}</span>
+            </div>
+            <div class="incidencias-container05">
+              <span>{{incidencia.contenido}}</span>
+            </div>
+            <div class="incidencias-container06">
+              <span>{{incidencia.asignatura}}</span>
+            </div>
+            <div class="incidencias-container07" *ngIf="!incidencia.justificacion">
+              <button *ngIf="mostrarBtnJustificar && !incidencia.justificacion && !esProf" type="button" class="incidencias-button button" (click)="mostrarJustificacion(incidencia)">
+                Justificar
+              </button>
+            </div>
+            <div *ngIf="incidencia.justificacion" class="incidencias-container07">
+              <span>Justificación: {{ incidencia.justificacion }}</span>
+            </div>
+            <div *ngIf="incidencia.mostrarJustificacion" class="incidencias-container09">
+              <textarea class="incidencias-textarea" placeholder="Justifique la falta" [(ngModel)]="incidencia.justificacion"></textarea>
+              <button type="button" class="incidencias-button button" (click)="justificarIncidencia(incidencia)">
+                Enviar
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <ng-template #noIncidencias>
+        <div class="sin-incidencias">
+          <span>No hay incidencias para mostrar.</span>
+        </div>
+      </ng-template>
+    </div>
+    <div class="recordatorios-container3">
+      <button *ngIf="esProf" [routerLink]="['/mensajesenviados',  hijoId, alumnoId]" class="recordatorios-navlink button">
+        Añadir Incidencia
+      </button>
+    </div>
+  </div>
+  

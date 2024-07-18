@@ -1,0 +1,71 @@
+:host { 
+  display: contents; 
+}
+.alumnocurso-container {
+  flex: 0 0 auto;
+  width: 1100px;
+  height: 70px;
+  display: flex;
+  position: relative;
+  align-self: center;
+  align-items: center;
+  border-color: var(--dl-color-gray-black);
+  border-width: 4px;
+  justify-content: flex-end;
+}
+.alumnocurso-container1 {
+  flex: 1;
+  width: var(--dl-size-size-large);
+  height: 100%;
+  display: flex;
+  align-items: center;
+  border-color: #000000;
+  border-style: solid;
+  border-width: 2px;
+  padding-left: var(--dl-space-space-twounits);
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: #ffffff;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 4px;
+  border-bottom-width: 0px;
+}
+.alumnocurso-text {
+  font-size: 28px;
+  font-style: normal;
+  font-family: "PT Sans";
+  font-weight: 700;
+}
+.alumnocurso-container2 {
+  flex: 0 0 auto;
+  width: 400px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding-left: var(--dl-space-space-twounits);
+  justify-content: center;
+  background-color: #ffffff;
+}
+.alumnocurso-icon {
+  width: 50px;
+  height: 50px;
+}
+.alumnocurso-navlink {
+  display: contents;
+}
+.alumnocurso-icon2 {
+  width: 50px;
+  height: 50px;
+  margin-left: var(--dl-space-space-threeunits);
+  text-decoration: none;
+}
+.alumnocurso-navlink1 {
+  display: contents;
+}
+.alumnocurso-icon4 {
+  width: 50px;
+  height: 50px;
+  margin-left: var(--dl-space-space-threeunits);
+  text-decoration: none;
+}

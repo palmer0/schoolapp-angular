@@ -1,0 +1,16 @@
+<div class="usuarioalumno-container" [ngClass]="rootClassName">
+  <img
+    [attr.alt]="foto"
+    [attr.src]="foto"
+    class="usuarioalumno-image"
+  />
+  <div class="usuarioalumno-container1">
+    <div class="usuarioalumno-container2">
+      <span class="usuarioalumno-text">{{ nombre }}</span>
+    </div>
+    <div class="usuarioalumno-container3">
+      <span class="usuarioalumno-text1">{{ curso }}{{ grupo }}</span>
+        <span class="usuarioalumno-text1">{{ rol }}</span>
+    </div>
+  </div>
+</div>

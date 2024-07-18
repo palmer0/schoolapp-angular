@@ -1,0 +1,37 @@
+<div class="login-container">
+  <app-headernologin
+    rootClassName="headernologin-root-class-name14"
+  ></app-headernologin>
+  <div class="login-container1">
+    <div class="login-container2">
+      <h1 class="login-heading">Servicio de identificación</h1>
+
+      <form [formGroup]="loginForm">
+      <span class="login-text">Introduce tu correo electrónico</span>
+      <input
+        type="text"
+        required
+        minlenght="8"
+        placeholder="micorreo@gmail.com"
+        class="login-textinput input"
+        formControlName="email"
+      />
+      <span class="login-text1">Introduce tu contraseña</span>
+      <input
+        type="password"
+        required
+        maxlength="10"
+        minlength="6"
+        placeholder="********"
+        class="login-textinput1 input"
+        formControlName="contrasena"
+
+      />
+      <button (click)="onSubmit()" class="login-navlink button">
+        Iniciar Sesión
+      </button>
+      </form>
+      <div *ngIf="errorMessage" class="error-message">{{ errorMessage }}</div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,23 @@
+<div class="nuevorecordatorio-container" [formGroup]="formularioRecordatorios">
+  <app-headerlogin
+    rootClassName="headerlogin-root-class-name11"
+  ></app-headerlogin>
+  <div class="nuevorecordatorio-container1">
+    <div class="nuevorecordatorio-container2">
+      <span class="nuevorecordatorio-text">Nuevo recordatorio:</span>
+    </div>
+    <div class="nuevorecordatorio-container3">
+      <textarea
+        type="text"
+        formControlName="mensaje"
+        placeholder="Mensaje"
+        class="nuevorecordatorio-textarea textarea"
+      ></textarea>
+      <div class="nuevorecordatorio-container4">
+        <button (click)="onSubmit()"  class="nuevorecordatorio-navlink button">
+          Añadir
+        </button>
+      </div>
+    </div>
+  </div>
+</div>

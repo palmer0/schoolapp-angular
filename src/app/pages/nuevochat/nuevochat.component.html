@@ -1,0 +1,26 @@
+<div class="nuevochat-container">
+  <app-headerlogin rootClassName="headerlogin-root-class-name8"></app-headerlogin>
+  <div class="nuevochat-container1">
+    <div class="nuevochat-container2">
+
+      <input type="text" placeholder="🔍 Buscar por nombre" class="nuevochat-textinput input"
+        [(ngModel)]="terminoBusqueda" (input)="buscarAlumnos()" />
+    </div>
+    <div class="nuevochat-container4">
+      <a *ngFor="let alumno of alumnosBuscados" class="alumno-card">
+      <!-- <div (click)="seleccionarAlumno(alumno)"> -->
+      <a  [routerLink]="['/chat', alumno.id, userId]" >
+            <app-usuariochat
+              [nombre]="alumno.nombre"
+              [rol]="alumno.rol"
+              [userId]="userId"
+              [foto]="alumno.foto"
+              rootClassName="usuariochat-root-class-name16"
+              class="nuevochat-component2"
+            ></app-usuariochat>
+          </a>
+        <!-- </div> -->
+      </a>
+    </div>
+  </div>
+</div>

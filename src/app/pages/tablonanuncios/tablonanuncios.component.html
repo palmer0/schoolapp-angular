@@ -1,0 +1,50 @@
+ <div class="tablonanuncios-container">
+  <app-headerlogin rootClassName="headerlogin-root-class-name10"></app-headerlogin>
+  <div class="tablonanuncios-container1">
+    <span class="tablonanuncios-text">Últimas publicaciones:</span>
+  </div>
+
+  <div class="tablonanuncios-container2">
+    <ng-container *ngIf="anuncios.length > 0; else noAnuncios">
+      <app-anuncio *ngFor="let anuncio of anuncios" [titulo]="anuncio.nombre" [contenido]="anuncio.contenido" [enviador]="anuncio.enviador"></app-anuncio>
+    </ng-container>
+    <ng-template #noAnuncios>
+      <div class="no-anuncios">
+        No hay anuncios para mostrar
+      </div>
+    </ng-template>
+  </div>
+
+  <div class="tablonanuncios-container3" *ngIf="rolAlumno !== 'alumno' && rolAlumno !== 'padre'  && rolAlumno !== 'consejeria'">
+    <button (click)="toggleNuevoAnuncioForm()" class="tablonanuncios-navlink button">Nuevo anuncio</button>
+  </div>
+
+  <div *ngIf="mostrarNuevoAnuncioForm" class="tablonanuncios-container4" [formGroup]="formularioAnuncio">
+    <div class="tablonanuncios-container5" >
+      <div formArrayName="destinatarios">
+        <label *ngFor="let destinatario of destinatarios; let i = index">
+          <input type="checkbox" class="tablonanuncios-checkbox" [formControlName]="i" /> {{ destinatario }}
+        </label>
+      </div>
+      <input
+        type="text"
+        placeholder="Introduzca un título"
+        class="tablonanuncios-textinput input"
+        formControlName="titulo"
+      />
+      <textarea
+        placeholder="Añada aquí su contenido"
+        class="tablonanuncios-textarea textarea"
+        formControlName="contenido"
+
+      ></textarea>
+      <input
+        type="text"
+        placeholder="Introduzca su nombre"
+        class="tablonanuncios-textinput1 input"
+        formControlName="enviador"
+      />
+       <button (click)="agregarAnuncio()" class="tablonanuncios-navlink1 button">Añadir</button>
+    </div>
+  </div>
+</div>

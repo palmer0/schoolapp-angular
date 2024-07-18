@@ -1,0 +1,34 @@
+<div class="horario-container">
+  <app-headerlogin
+    rootClassName="headerlogin-root-class-name12"
+  ></app-headerlogin>
+  <div class="horario-container01">
+    <div class="horario-container02">
+      <div class="horario-container03">
+        <div class="horario-container04">
+          <span class="horario-text">Horario: {{nombreHijo}}</span>
+        </div>
+      </div>
+    </div>
+    <div class="horario-container05">
+      <div class="horario-container06">
+        <div class="horario-container07"></div>
+        <div class="horario-container08"><span>Lunes</span></div>
+        <div class="horario-container09"><span>Martes</span></div>
+        <div class="horario-container10"><span>Miércoles</span></div>
+        <div class="horario-container11"><span>Jueves</span></div>
+        <div class="horario-container12"><span>Viernes</span></div>
+      </div>
+      <div *ngFor="let hora of horario">
+        <div class="horario-container16">
+          <div class="horario-container14"><span>{{hora[0]}}</span></div>
+          <div class="horario-container14"><span>{{hora[1]}}</span></div>
+          <div class="horario-container14"><span>{{hora[2]}}</span></div>
+          <div class="horario-container14"><span>{{hora[3]}}</span></div>
+          <div class="horario-container14"><span>{{hora[4]}}</span></div>
+          <div class="horario-container14"><span>{{hora[5]}}</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

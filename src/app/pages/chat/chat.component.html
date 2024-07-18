@@ -1,0 +1,22 @@
+<div class="chat-container">
+  <app-headerlogin
+    rootClassName="headerlogin-root-class-name1"
+  ></app-headerlogin>
+  <app-bloquechat  [mensajes]="chat?.mensajes"
+  [userId]="userId"
+  [nombre]="nombreOtro"
+  [rol]="rolOtro"
+  [foto]="foto"
+ ></app-bloquechat>
+    <div class="chat-container1">
+      <input 
+        type="text"
+        placeholder="Mensaje"
+        [(ngModel)]="newMessageContent"
+        class="chat-textinput input"
+        (keyup.enter)="sendMessage()" 
+        />
+    </div>
+    <button hidden (click)="sendMessage()">Enviar</button>
+  
+</div>

@@ -1,0 +1,37 @@
+<div class="plantillahorario-container">
+  <app-headerlogin rootClassName="headerlogin-root-class-name16"></app-headerlogin>
+  <div class="plantillahorario-horario">
+    <div class="plantillahorario-container01">
+      <div class="plantillahorario-container02">
+        <div class="plantillahorario-container03">
+          <select class="plantillahorario-select" (change)="onSelectChange($event)">
+            <option *ngFor="let combinacion of combinacionesCursoGrupo" 
+                    [value]="combinacion.cursoId + ',' + combinacion.grupoId"
+                    [selected]="combinacion.cursoId === seleccionCursoId && combinacion.grupoId === seleccionGrupoId">
+              {{ combinacion.cursoId }}{{ combinacion.grupoId }}
+            </option>
+          </select>
+        </div>
+      </div>
+    </div>
+    <div class="plantillahorario-container04">
+      <div class="plantillahorario-container05">
+        <div class="plantillahorario-container06"></div>
+        <div class="plantillahorario-container07"><span>Lunes</span></div>
+        <div class="plantillahorario-container08"><span>Martes</span></div>
+        <div class="plantillahorario-container09"><span>Miércoles</span></div>
+        <div class="plantillahorario-container10"><span>Jueves</span></div>
+        <div class="plantillahorario-container11"><span>Viernes</span></div>
+      </div>
+      <div *ngFor="let fila of filas; let i = index" class="plantillahorario-container12">
+        <div class="plantillahorario-container13">
+          <input type="text" [(ngModel)]="horarios[i][0]" placeholder="Hora" class="plantillahorario-containerInput1" />
+        </div>
+        <div class="plantillahorario-container13" *ngFor="let dia of [1, 2, 3, 4, 5]">
+          <input type="text" [(ngModel)]="horarios[i][dia]" placeholder="Asignatura" class="plantillahorario-containerInput1" />
+        </div>
+      </div>
+    </div>
+    <button *ngIf="esAdmin" class="plantillahorario-navlink button" (click)="guardarHorario()">Guardar Horario</button>
+  </div>
+</div>

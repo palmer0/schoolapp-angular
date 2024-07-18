@@ -1,0 +1,98 @@
+:host { 
+  display: contents; 
+}
+.userwelcome-container {
+  flex: initial;
+  width: 100%;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-items: flex-end;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+.userwelcome-container1 {
+  width: auto;
+  height: 100%;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  margin-left: var(--dl-space-space-unit);
+  justify-content: center;
+}
+.userwelcome-text {
+  width: auto;
+  font-style: normal;
+  font-weight: 700;
+}
+.userwelcome-container2 {
+  flex: 0 0 auto;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  height: 100%;
+  display: flex;
+  align-items: center;
+  margin-right: var(--dl-space-space-unit);
+  flex-direction: row;
+}
+.userwelcome-root-class-name {
+  margin-top: var(--dl-space-space-halfunit);
+  margin-bottom: 0px;
+}
+.userwelcome-root-class-name1 {
+  margin-top: 0px;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.userwelcome-root-class-name2 {
+  margin-top: var(--dl-space-space-halfunit);
+  margin-bottom: var(--dl-space-space-threeunits);
+}
+.userwelcome-root-class-name3 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.userwelcome-root-class-name4 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.userwelcome-root-class-name5 {
+  margin-bottom: var(--dl-space-space-twounits);
+}
+.userwelcome-root-class-name6 {
+  margin-top: var(--dl-space-space-halfunit);
+  margin-bottom: var(--dl-space-space-threeunits);
+}
+.userwelcome-root-class-name7 {
+  margin-top: var(--dl-space-space-halfunit);
+  margin-bottom: var(--dl-space-space-threeunits);
+}
+.userwelcome-root-class-name8 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+@media(max-width: 1200px) {
+  .userwelcome-root-class-name {
+    margin-bottom: var(--dl-space-space-threeunits);
+  }
+  .userwelcome-root-class-name1 {
+    margin-top: var(--dl-space-space-unit);
+    margin-bottom: var(--dl-space-space-twounits);
+  }
+  .userwelcome-root-class-name2 {
+    margin-bottom: var(--dl-space-space-threeunits);
+  }
+  .userwelcome-root-class-name3 {
+    margin-bottom: var(--dl-space-space-threeunits);
+  }
+  .userwelcome-root-class-name4 {
+    margin-bottom: var(--dl-space-space-threeunits);
+  }
+  .userwelcome-root-class-name5 {
+    margin-bottom: var(--dl-space-space-threeunits);
+  }
+  .userwelcome-root-class-name6 {
+    margin-bottom: var(--dl-space-space-threeunits);
+  }
+  .userwelcome-root-class-name7 {
+    margin-bottom: var(--dl-space-space-threeunits);
+  }
+  .userwelcome-root-class-name8 {
+    margin-bottom: var(--dl-space-space-threeunits);
+  }
+}

@@ -1,0 +1,152 @@
+<div class="altaempleado-container" [formGroup]="formularioEmpleados">
+  <app-headerlogin
+    rootClassName="headerlogin-root-class-name20"></app-headerlogin>
+  <div class="altaempleado-container01">
+    <span class="altaempleado-text">Datos del empleado:</span>
+  </div>
+  <div class="altaempleado-container02">
+    <div class="altaempleado-container03">
+      <label class="altaempleado-text01">
+        <input type="radio" formControlName="rol" name="rol" value="profesor" class="altaempleado-radiobutton" /> Profesor/a
+      </label>
+      <label class="altaempleado-text02">
+        <input type="radio" formControlName="rol" name="rol" value="consejeria" class="altaempleado-radiobutton1" /> Conserjería
+      </label>
+      <label class="altaempleado-text03">
+        <input type="radio" formControlName="rol" name="rol" value="administracion" class="altaempleado-radiobutton2" /> Administración
+      </label>
+      <label class="altaempleado-text04">
+        <input type="radio" formControlName="rol" name="rol" value="jefatura" class="altaempleado-radiobutton3" /> Jefatura
+      </label>
+    </div>
+  </div>
+  <div class="altaempleado-container04">
+    <div class="altaempleado-container05">
+      <div class="altaempleado-container06">
+        <input
+          type="text"
+          placeholder="Nombre completo"
+          class="altaempleado-textinput input"
+          formControlName="nombre" />
+      </div>
+      <div class="altaempleado-container07">
+        <input
+          type="text"
+          placeholder="DNI"
+          class="altaempleado-textinput01 input"
+          formControlName="dni" />
+      </div>
+      <div class="altaempleado-container08">
+        <input
+          type="text"
+          placeholder="F. nac. dd/mm/aaaa"
+          class="altaempleado-textinput02 input"
+          formControlName="fecha_nacimiento" />
+      </div>
+    </div>
+    <div class="altaempleado-container09">
+      <div class="altaempleado-container10">
+        <input
+          type="text"
+          placeholder="Domicilio"
+          class="altaempleado-textinput03 input"
+          formControlName="direccion" />
+      </div>
+      <div class="altaempleado-container11">
+        <select
+          name="municipios"
+          class="altaalumno-select input"
+          formControlName="municipio">
+          <option value disabled selected>Seleccione un municipio</option>
+          <option *ngFor="let municipio of municipios" [value]="municipio">
+            {{ municipio }}
+          </option>
+        </select>
+      </div>
+      <div class="altaempleado-container12">
+        <input
+          type="text"
+          placeholder="C. Postal"
+          class="altaempleado-textinput05 input"
+          formControlName="cpostal" />
+      </div>
+    </div>
+    <div class="altaempleado-container13">
+      <div class="altaempleado-container14">
+        <input
+          type="text"
+          placeholder="Tlf de contacto"
+          class="altaempleado-textinput06 input"
+          formControlName="tlf" />
+      </div>
+      <div class="altaempleado-container15">
+        <input
+          type="text"
+          placeholder="Contraseña"
+          class="altaempleado-textinput07 input"
+          formControlName="contrasena" />
+      </div>
+      <div class="altaempleado-container16">
+        <input
+          type="text"
+          placeholder="Email"
+          class="altaempleado-textinput08 input"
+          formControlName="email" />
+      </div>
+      <div class="altaempleado-container17">
+        <input
+          type="text"
+          placeholder="Último curso trabajado"
+          class="altaempleado-textinput09 input"
+          formControlName="ult_curso_trabajado" />
+      </div>
+    </div>
+    <div class="altaempleado-container18">
+      <div class="altaempleado-container19">
+        <input
+          type="text"
+          placeholder="Último centro de enseñanza"
+          class="altaempleado-textinput10 input"
+          formControlName="ult_centro_trabajado" />
+      </div>
+      <div class="altaempleado-container20">
+        <select
+          name="municipios"
+          class="altaalumno-select input"
+          formControlName="municipio_centro">
+          <option value disabled selected>Seleccione un municipio</option>
+          <option *ngFor="let municipio of municipios" [value]="municipio">
+            {{ municipio }}
+          </option>
+        </select>
+      </div>
+      <div class="altaempleado-container21">
+        <input
+          type="text"
+          placeholder="Departamento"
+          class="altaempleado-textinput12 input"
+          formControlName="departamento" />
+      </div>
+    </div>
+  </div>
+  <div class="altaempleado-container22" [formGroup]="formularioCurso">
+    <div class="altaempleado-container23">
+      <span class="altaempleado-text05">Grupos asignados:</span>
+    </div>
+    <div class="altaempleado-container24">
+      <div *ngFor="let comb of combinacionesCursoGrupo; let i = index" class="altaempleado-container-checkbox">
+        <span class="altaempleado-text06">{{ comb.cursoId }} - {{ comb.grupoId }}</span>
+        <input type="checkbox" class="altaempleado-checkbox" [formControlName]="'cursoGrupo' + i"/>
+      </div>
+    </div>
+  </div>
+  <div class="altaempleado-container48">
+    <button *ngIf="esAdmin" (click)="onSubmit()" class="altaempleado-navlink button">
+      Guardar Cambios
+    </button>
+    <button *ngIf="esAdmin" (click)="darDeBajaEmpleado()" class="altaalumno-navlink button">
+      Dar de Baja
+    </button>
+
+  </div>
+</div>

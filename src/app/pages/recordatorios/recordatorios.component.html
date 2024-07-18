@@ -1,0 +1,26 @@
+<div class="recordatorios-container">
+  <app-headerlogin
+    rootClassName="headerlogin-root-class-name9"
+  ></app-headerlogin>
+  <div class="recordatorios-container1">
+    <span class="recordatorios-text">Lista de recordatorios:</span>
+  </div>
+  <div class="recordatorios-container2">
+    <div *ngIf="recordatorios.length > 0; else noRecordatorios">
+      <app-recordatorio
+        *ngFor="let recordatorio of recordatorios"
+        [recordatorio]="recordatorio"
+        [id]="recordatorio.id"
+        [text]="recordatorio.mensaje"
+      ></app-recordatorio>
+    </div>
+    <ng-template #noRecordatorios>
+      <p>No hay recordatorios disponibles.</p>
+    </ng-template>
+  </div>
+  <div class="recordatorios-container3">
+    <a [routerLink]="['/nuevorecordatorio', userId]" class="recordatorios-navlink button">
+      Nuevo recordatorio
+    </a>
+  </div>
+</div>
